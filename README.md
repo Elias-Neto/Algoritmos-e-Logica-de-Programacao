@@ -19,5 +19,5 @@ de algoritmos e lógica de programação do professor Gustavo Guanabara (curso e
 
 <h3>Aulas do Curso</h3>
 <ul>
-  <li>Aula 01 - Introdução a Algoritmos</li>
+  <li><a href="./aula01.md">Aula 01 - Introdução a Algoritmos</a></li>
 </ul>

@@ -23,30 +23,17 @@
 </p>
 
 ````
-  ✅ É um Algoritmo                  ✅ É um Algoritmo
+  ✅ É um Algoritmo                  ✅ É um Algoritmo                   ❌ Não é um Algoritm
 
-  Algoritmo AtravessarRua             Algoritmo AtrvessarRua
-    Olhar para a direita                Olhar para a esquerda
-    Olhar para a esquerda               Olhar para a direita
-    Se estiver vindo carro              Se não estiver vindo carro
-      Não Atravesse                       Atravesse
-    senão                               senão
-      Atravesse                           Não Atravesse
-    Fim-Se                              Fim-Se
-  Fim-Algoritmo                       Fim-Algoritmo
-
-
-  ❌ Não é um Algoritmo
-
-  Algoritmo AtravessarRua
-    Atravesse
-    Se estiver vindo carro
-      Olhar para a direita
-    senão
-      Olhar para a esquerda
-    Fim-Se
-    Não Atravesse
-  FimAlgoritmo
+  Algoritmo AtravessarRua             Algoritmo AtrvessarRua               Algoritmo AtravessarRua
+    Olhar para a direita                Olhar para a esquerda                 Atravesse
+    Olhar para a esquerda               Olhar para a direita                  Se estiver vindo carro
+    Se estiver vindo carro              Se não estiver vindo carro              Olhar para a direita
+      Não Atravesse                       Atravesse                           senão
+    senão                               senão                                   Olhar para a esquerda
+      Atravesse                           Não Atravesse                       Fim-Se
+    Fim-Se                              Fim-Se                                Não Atravesse
+  Fim-Algoritmo                       Fim-Algoritmo                        FimAlgoritmo
 ````
 
 <p>
