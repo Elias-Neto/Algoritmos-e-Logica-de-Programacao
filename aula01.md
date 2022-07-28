@@ -39,3 +39,35 @@
 <p>
   Todo algoritmo respeita padrões/rotinas e resolve algum problema.
 </p>
+
+<p>
+  A partir da segunda aula, o foco será em algoritmos computacionais. Esse tipo de algoritmo segue o mesmo conceito, porém,
+  o foco de execução é diferente.
+</p>
+
+<br>
+
+<h2>O que são Algoritmos Computacionais?</h2>
+
+<p>
+  São passos a serem seguidos por um módulo processador e seus respectivos usuários que, quando executados
+  na ordem correta, conseguem realizar determinada tarefa.
+
+  <br>
+
+  Todo algoritmo computacional começa na cabeça do progrmador com uma lógica de programação. Após pensar 
+  em uma boa lógica, o segundo passo é expressar suas ideias por meio de uma linguagem de programação 
+  para construir uma aplicação completa.
+
+  <br>
+
+  Existem várias formas de você expressar sua lógica, por meio de: Fluxograma, Pseudocódigo e Linguagem de Programação.
+  1. Fluxograma é um tipo de diagrama; 
+  2. Pseudocódigo é uma forma simples de escrever código utilizando uma linguagem próxima da que você fala;
+  3. Linguagem de programação é um tipo de linguagem que tenta unir o entendimento do ser humano com o 
+  entendimento da máquina - utilizando sintaxes e lógicas.
+</p>
+
+<br><br>
+
+<p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
