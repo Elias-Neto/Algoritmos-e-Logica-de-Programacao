@@ -22,9 +22,9 @@ _<>_      | diferente de
 
 <br>
 
-### 🏋️‍♂️ **Exercício Prático:**
+### 🏋️‍♂️ **Exercício Prático - Operações Relacionais :**
 
-Comparar valores numéricos.
+* Crie três variáveis, atribua valores a elas e faça operações relacionais.
 
 ````
 algoritmo "operadores relacionais"
@@ -122,9 +122,9 @@ p | NÃO p
 
 <br>
 
-### 🏋️‍♂️ **Exercício Prático:**
+### 🏋️‍♂️ **Exercício Prático - Operações Lógicas :**
 
-Comparar valores lógicos.
+* Crie três variáveis, atribua valores a elas e faça operações lógicas.
 
 ````
 algoritmo "operadores relacionais"
@@ -153,10 +153,10 @@ fimalgoritmo
 
 <br>
 
-### 🏋️‍♂️ **Exercício Prático:**
+### 🏋️‍♂️ **Exercício Prático - Triângulos :**
 
-Peça ao usuário a medida de três lados de um triângulo e confira se pode ser um triângulo
-e, se sim, qual o tipo do triângulo (isósceles, equilátero ou escaleno).
+* Peça ao usuário a medida de três lados de um triângulo, confira se pode ser um triângulo e
+qual o tipo do triângulo (isósceles, equilátero ou escaleno).
 
 ````
 algoritmo "triângulos"

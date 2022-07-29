@@ -22,9 +22,9 @@ fimalgoritmo
 
 <br>
 
-### 🏋️‍♂️ **Exercício Prático:**
+### 🏋️‍♂️ **Exercício Prático - Somar Dois Números :**
 
-Solicite dois números ao usuário e mostre a soma entre eles.
+* Faça um programa que solicite dois números ao usuário, calcule e mostre a soma entre eles.
 
 ````
 algoritmo "soma"
@@ -66,9 +66,9 @@ dentro de uma mesma expressão
 
 <br>
 
-### 🏋️‍♂️ **Exercício Prático:**
+### 🏋️‍♂️ **Exercício Prático - Média de Dois Números :**
 
-Solicite dois números ao usuário e mostre a média entre eles.
+* Faça um programa que solicite dois números ao usuário, calcule e mostre a média entre eles.
 
 ````
 algoritmo "media"

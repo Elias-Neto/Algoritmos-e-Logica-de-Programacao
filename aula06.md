@@ -6,7 +6,7 @@
 
 <br>
 
-## 🎂 **Exercício 01 - Creuza vai fazer aniverário**
+## 🎂 **Exercício 01 - Creuza vai fazer aniverário :**
 
 * Está chegando o aniversário da Creuza e ela não sabe quantas velinhas colocar em cima do bolo.
 
@@ -29,7 +29,7 @@ fimalgoritmo
 
 <br>
 
-## 💵 **Exercício 02 - Creuza vai viajar e prcisa comprar dólares**
+## 💵 **Exercício 02 - Creuza vai viajar e prcisa comprar dólares :**
 
 * Agora que Creuza completou ano, ela quer se presentar com uma viagem para os Estados Unidos.
 Além da passagem, ela precisa comprar dólares. Ele tem uma certa quantidade de dinheiro em reias
@@ -52,7 +52,7 @@ fimalgoritmo
 
 <br>
 
-## 🌡️ **Exercpicio 03 - Creuza não sabe a temperatura**
+## 🌡️ **Exercpicio 03 - Creuza não sabe a temperatura :**
 
 * Creuza já chegou nos Estados Unidos mas quando foi ver a temperatura estava em 100°, ela ficou
 desesperada. Fazendo uma pesquisa, ela percebeu que nos Estados Unidos a temperatura é medida
@@ -75,7 +75,7 @@ fimalgoritmo
 
 <br>
 
-## 🛒 **Exercício 04 - Creuza comprou várias coisas**
+## 🛒 **Exercício 04 - Creuza comprou várias coisas :**
 
 * Durante a viagem, Creuza comprou muitas coisas e agora vai precisar pegar imposto assim 
 que chegar no Brasil.
@@ -97,7 +97,7 @@ fimalgoritmo
 
 <br>
 
-## 💸 **Exercício 05 - Creuza teve que pegar um empréstimo no banco**
+## 💸 **Exercício 05 - Creuza teve que pegar um empréstimo no banco :**
 
 * Após gastar para pagar os impostos, Creuza está sem grana e precisará pegar um 
 empréstimo no banco.
@@ -121,3 +121,7 @@ inicio
 fimalgoritmo
 
 ````
+
+<br><br>
+
+<p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
