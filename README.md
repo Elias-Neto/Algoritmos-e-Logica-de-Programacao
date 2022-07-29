@@ -32,7 +32,7 @@ o código, ou seja, a sintaxe da linguagem.
   <li><a href="./aula03.md">Aula 03 - Comando de Entrada e Operadores 🔢</a></li>
   <li><a href="./aula04.md">Aula 04 - Operadores Lógicos e Relacionais 🧠</a></li>
   <li>Aula 05 - Introdução ao Scratch 😺</li>
-  <li><a href="./aula05.md">Aula 05 - Exercícios de Algoritmos Resolvidos 🏋️‍♂️</a></li>
+  <li><a href="./aula06.md">Aula 06 - Exercícios de Algoritmos Resolvidos 🏋️‍♂️</a></li>
 </ul>
 
 <br><br>
