@@ -52,7 +52,7 @@ fimalgoritmo
 * ( ^ ) Exponenciação
 * ( % ) Módulo
 
-<BR>
+<br>
 
 ### ❕ **Ordem de precedência**
 
@@ -64,7 +64,7 @@ dentro de uma mesma expressão
 3. _*_ /  multiplicação/divisão
 4. _+_ _-_  soma/subtração
 
-<BR>
+<br>
 
 ### 🏋️‍♂️ **Exercício Prático:**
 
@@ -84,6 +84,8 @@ inicio
       Escreva("A média entre ", N1, " e ", N2, " é ", M)
 fimalgoritmo
 ````
+
+<br>
 
 ## 🛠 Funções Aritméticas
 

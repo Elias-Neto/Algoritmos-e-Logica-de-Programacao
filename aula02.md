@@ -1,4 +1,4 @@
-<h1>Aula 02 - Primeiro Algoritmo 1️⃣</h1>
+# Aula 02 - Primeiro Algoritmo 1️⃣
 
 > Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
 

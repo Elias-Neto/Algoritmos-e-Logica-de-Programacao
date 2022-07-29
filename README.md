@@ -27,9 +27,12 @@ o código, ou seja, a sintaxe da linguagem.
 
 <h3>Aulas do Curso</h3>
 <ul>
-  <li><a href="./aula01.md">Aula 01 - Introdução a Algoritmos</a></li>
-  <li><a href="./aula02.md">Aula 02 - Primeiro Algoritmo</a></li>
-  <li><a href="./aula03.md">Aula 03 - Comando de Entrada e Operadores</a></li>
+  <li><a href="./aula01.md">Aula 01 - Introdução a Algoritmos 💭</a></li>
+  <li><a href="./aula02.md">Aula 02 - Primeiro Algoritmo 1️⃣</a></li>
+  <li><a href="./aula03.md">Aula 03 - Comando de Entrada e Operadores 🔢</a></li>
+  <li><a href="./aula04.md">Aula 04 - Operadores Lógicos e Relacionais 🧠</a></li>
+  <li>Aula 05 - Introdução ao Scratch 😺</li>
+  <li><a href="./aula05.md">Aula 05 - Exercícios de Algoritmos Resolvidos 🏋️‍♂️</a></li>
 </ul>
 
 <br><br>

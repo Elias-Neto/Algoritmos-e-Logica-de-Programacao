@@ -1,4 +1,4 @@
-<h1>Aula 01 - Introdução a Algoritmos 💭</h1>
+# Aula 01 - Introdução a Algoritmos 💭
 
 <h2>O que é algoritmo?</h2>
 
