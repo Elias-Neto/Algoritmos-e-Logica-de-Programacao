@@ -1,6 +1,6 @@
 <h1>Aula 02 - Primeiro Algoritmo 1️⃣</h1>
 
-> Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
+> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
 
 <br>
 
@@ -26,6 +26,7 @@ fimalgoritmo
 ## 📤 **Comandos de Saída de Dados (Output)**
 
 - são comandos que, quando executados, mostrarão algo na tela
+- responsáveis pela saída de dados
 
 ````
 algoritmo "comandos de saida"
@@ -81,7 +82,9 @@ Inicialmente, vamos abordar só os tipos de dados primitivos:
 
 - Inteiro - (1, 3, -5, 198, 0)
 - Real - (0.5, 5.0, 9.8, -77.3, 3.1415)
-- Caractere - ("Elias", "Neto", "Algoritmo", "123")
+  - na programação, utilizamos "." e não ","
+- Caractere - ("Elias", "Neto", "Algoritmo", "123") 
+  - String é um conjunto de carcteres
 - Lógico - (verdadeiro, falso)
 
 <br>

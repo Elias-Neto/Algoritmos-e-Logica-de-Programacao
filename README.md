@@ -29,6 +29,7 @@ o código, ou seja, a sintaxe da linguagem.
 <ul>
   <li><a href="./aula01.md">Aula 01 - Introdução a Algoritmos</a></li>
   <li><a href="./aula02.md">Aula 02 - Primeiro Algoritmo</a></li>
+  <li><a href="./aula03.md">Aula 03 - Comando de Entrada e Operadores</a></li>
 </ul>
 
 <br><br>
