@@ -34,6 +34,8 @@ o código, ou seja, a sintaxe da linguagem.
   <li>Aula 05 - Introdução ao Scratch 😺</li>
   <li><a href="./aula06.md">Aula 06 - Exercícios de Algoritmos Resolvidos 🏋️‍♂️</a></li>
   <li><a href="./aula07.md">Aula 07 - Estruturas Condicionais (Parte 01) 🔀</a></li>
+  <li><a href="./aula08.md">Aula 08 - Estruturas Condicionais (Parte 02) 🔀</a></li>
+  <li><a href="./aula09.md">Aula 09 - Estruturas de Reptição (Parte 01) 🔁</a></li>
 </ul>
 
 <br><br>

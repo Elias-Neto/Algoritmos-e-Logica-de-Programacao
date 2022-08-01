@@ -13,7 +13,7 @@
 
 Sintaxe da estrutura: 
 
-* se *acontecer tal coisa* então *faça aquilo*
+* se ***acontecer tal coisa*** então ***faça aquilo***
 
 ````
   Se (expressao) entao
@@ -74,7 +74,7 @@ execute o bloco y
 
 Sintaxe da estrutura: 
 
-* se *acontecer tal coisa* então *faça isso* senão *faça aquilo*
+* se ***acontecer tal coisa*** então ***faça isso*** senão ***faça aquilo***
 
 ````
   Se (expressao) entao
