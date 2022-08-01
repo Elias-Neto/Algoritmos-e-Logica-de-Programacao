@@ -1,4 +1,4 @@
-# Estruturas Condicionais (Parte 02) 🔀
+# Aula 08 - Estruturas Condicionais (Parte 02) 🔀
 
 > Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
 
@@ -143,7 +143,7 @@ fimalgoritmo
 
 <br>
 
-## 🔱 **Estrutura Condicional Escolha Caso**
+## 🔱 **Estrutura Condicional "Escolha Caso"**
 
 - é uma estrutura que gira em torno de mais de uma condição 
 
