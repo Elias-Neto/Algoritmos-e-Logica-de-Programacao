@@ -1,4 +1,4 @@
-# 🔁 Aula 10 - Estrutura de Repetição (Parte 02)
+# 🔁 Aula 10 - Estruturas de Repetição (Parte 02)
 
 > Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
 
@@ -8,6 +8,7 @@
 
 - gira em torno de uma condição
 - *o teste lógico é feito no **fim** da estrutura*
+- é utilizado quando não se sabe quantas vezes vai repetir o loop
 
 Sintaxe da Estrutura:
 

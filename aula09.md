@@ -8,6 +8,7 @@
 
 - gira em torno de uma condição
 - *o teste lógico é feito no **início** da estrutura*
+- é utilizado quando se sabe quantas vezes vai se repetir o loop
 
 Sintaxe da Estrutura:
 
