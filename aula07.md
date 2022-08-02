@@ -113,13 +113,13 @@ algoritmo "Par Ou Ímpar"
 var
    N: Inteiro
 inicio
-      Escreva("Digite um número qualquer: ")
-      Leia(N)
-      Se (N % 2 = 0) entao
-         Escreval("O número ", N," é PAR")
-      senao
-           Escreval("O numero ", N," é ÍMPAR")
-      FimSe
+    Escreva("Digite um número qualquer: ")
+    Leia(N)
+    Se (N % 2 = 0) entao
+      Escreval("O número ", N," é PAR")
+    senao
+      Escreval("O numero ", N," é ÍMPAR")
+    FimSe
 fimalgoritmo
 ````
 

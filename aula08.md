@@ -63,21 +63,21 @@ algoritmo "Aluno"
 var
    nota1, nota2, media: Real
 inicio
-      Escreva("Primeira Nota: ")
-      Leia(nota1)
-      Escreva("Segunda Nota: ")
-      Leia(nota2)
-      media <- (nota1 + nota2) / 2
-      EscrevaL("A media do aluno(a) foi ", media:4:2)
-      Se (media >= 7) entao
-         EscrevaL("Aluno(a) APROVADO(A)")
+   Escreva("Primeira Nota: ")
+   Leia(nota1)
+   Escreva("Segunda Nota: ")
+   Leia(nota2)
+   media <- (nota1 + nota2) / 2
+   EscrevaL("A media do aluno(a) foi ", media:4:2)
+   Se (media >= 7) entao
+      EscrevaL("Aluno(a) APROVADO(A)")
+   senao
+      Se (media >= 5) e (media <7) entao
+         EscrevaL ("Aluno(a) em RECUPERACAO(A)")
       senao
-           Se (media >= 5) e (media <7) entao
-              EscrevaL ("Aluno(a) em RECUPERACAO(A)")
-           senao
-              EscrevaL ("Aluno(a) REPROVADO(A)")
-           FimSe
+         EscrevaL ("Aluno(a) REPROVADO(A)")
       FimSe
+   FimSe
 fimalgoritmo
 ````
 
@@ -107,37 +107,37 @@ algoritmo "CalculoIMC"
 var
    massa, altura, IMC: Real
 inicio
-      Escreva("Massa (Kg): ")
-      Leia(massa)
-      Escreva("Altura (m): ")
-      Leia(altura)
-      IMC <- massa / (altura ^ 2)
-      EscrevaL("IMC: ", IMC:5:2)
-      Se (IMC < 17) entao
-         EscrevaL ("Muito abaixo do Peso")
+   Escreva("Massa (Kg): ")
+   Leia(massa)
+   Escreva("Altura (m): ")
+   Leia(altura)
+   IMC <- massa / (altura ^ 2)
+   EscrevaL("IMC: ", IMC:5:2)
+   Se (IMC < 17) entao
+      EscrevaL ("Muito abaixo do Peso")
+   senao
+      Se (IMC >= 17) e (IMC < 18.5) entao
+         EscrevaL ("Abaixo so Peso")
       senao
-           Se (IMC >= 17) e (IMC < 18.5) entao
-              EscrevaL ("Abaixo so Peso")
-           senao
-                Se (IMC >= 18.5) e (IMC < 25) entao
-                   EscrevaL ("Peso ideal")
-                senao
-                     Se (IMC >= 25) e (IMC < 30) entao
-                        EscrevaL ("Sobrepeso")
-                     senao
-                          Se (IMC >= 30) e (IMC < 35) entao
-                             EscrevaL ("Obesidade")
-                          senao
-                               Se (IMC >= 35) e (IMC < 40) entao
-                                  EscrevaL ("Obesidade Severa")
-                               senao
-                                    EscrevaL ("Obesidade Morbida")
-                               FimSe
-                          FimSe
-                     FimSe
-                FimSe
-           FimSe
+         Se (IMC >= 18.5) e (IMC < 25) entao
+            EscrevaL ("Peso ideal")
+         senao
+            Se (IMC >= 25) e (IMC < 30) entao
+               EscrevaL ("Sobrepeso")
+            senao
+               Se (IMC >= 30) e (IMC < 35) entao
+                  EscrevaL ("Obesidade")
+               senao
+                  Se (IMC >= 35) e (IMC < 40) entao
+                     EscrevaL ("Obesidade Severa")
+                  senao
+                     EscrevaL ("Obesidade Morbida")
+                  FimSe
+               FimSe
+            FimSe
+         FimSe
       FimSe
+   FimSe
 fimalgoritmo
 ````
 
@@ -183,33 +183,33 @@ var
    opcao : Inteiro
    valor: Real
 inicio
-      EscrevaL ("---------------------------")
-      EscrevaL ("     CRIANCA ESPERANCA     ")
-      EscrevaL ("---------------------------")
-      Escreval (" Muito obrigado por ajudar ")
-      Escreval (" [1] para doar R$10 ")
-      Escreval (" [2] para doar R$25 ")
-      Escreval (" [3] para doar R$50 ")
-      Escreval (" [4] para doar outros valores ")
-      Escreval (" [5] para cancelar ")
-      Leia (opcao)
-      Escolha opcao
-         Caso 1
-              valor <- 10
-         Caso 2
-              valor <- 25
-         Caso 3
-              valor <- 50
-         Caso 4
-              Escreva ("Qual o valor da doacao? R$")
-              Leia (valor)
-         Caso 5
-              valor <- 0
-      FimEscolha
-      Escreval ("------------------------")
-      Escreval (" SUA DOACAO FOI DE R$", Valor)
-      Escreval (" MUITO OBRIGADO!")
-      Escreval ("------------------------")
+   EscrevaL ("---------------------------")
+   EscrevaL ("     CRIANCA ESPERANCA     ")
+   EscrevaL ("---------------------------")
+   Escreval (" Muito obrigado por ajudar ")
+   Escreval (" [1] para doar R$10 ")
+   Escreval (" [2] para doar R$25 ")
+   Escreval (" [3] para doar R$50 ")
+   Escreval (" [4] para doar outros valores ")
+   Escreval (" [5] para cancelar ")
+   Leia (opcao)
+   Escolha opcao
+      Caso 1
+            valor <- 10
+      Caso 2
+            valor <- 25
+      Caso 3
+            valor <- 50
+      Caso 4
+            Escreva ("Qual o valor da doacao? R$")
+            Leia (valor)
+      Caso 5
+            valor <- 0
+   FimEscolha
+   Escreval ("------------------------")
+   Escreval (" SUA DOACAO FOI DE R$", Valor)
+   Escreval (" MUITO OBRIGADO!")
+   Escreval ("------------------------")
 fimalgoritmo
 ````
 
@@ -235,23 +235,23 @@ var
    salario, novoSalario : Real
    dependentes : Inteiro
 inicio
-      Escreva ("Qual o nome do Funcionário(a)? ")
-      Leia (nome)
-      Escreva ("Qual o salario do Funcionario(a)? R$")
-      Leia (salario)
-      Escreva ("Qual e a quantidade de dependentes? ")
-      Leia (dependentes)
-      Escolha dependentes
-              Caso 0
-                   novoSalario <- salario + (salario*5/100)
-              Caso 1, 2, 3
-                   novoSalario <- salario + (salario*10/100)
-              Caso 4, 5, 6
-                   novoSalario <- salario + (salario*15/100)
-              OutroCaso
-                   novoSalario <- salario + (salario*18/100)
-      FimEscolha
-      EscrevaL ("O novo salario de ", nome, " sera de R$", novoSalario:5:2)
+   Escreva ("Qual o nome do Funcionário(a)? ")
+   Leia (nome)
+   Escreva ("Qual o salario do Funcionario(a)? R$")
+   Leia (salario)
+   Escreva ("Qual e a quantidade de dependentes? ")
+   Leia (dependentes)
+   Escolha dependentes
+      Caso 0
+            novoSalario <- salario + (salario*5/100)
+      Caso 1, 2, 3
+            novoSalario <- salario + (salario*10/100)
+      Caso 4, 5, 6
+            novoSalario <- salario + (salario*15/100)
+      OutroCaso
+            novoSalario <- salario + (salario*18/100)
+   FimEscolha
+   EscrevaL ("O novo salario de ", nome, " sera de R$", novoSalario:5:2)
 fimalgoritmo
 ````
 
@@ -277,38 +277,38 @@ algoritmo "SituacaoAluno"
 var
    nota1, nota2, media: Real
 inicio
-      EscrevaL("-----------------------")
-      EscrevaL(" ESCOLA JAVALI CANSADO ")
-      EscrevaL("-----------------------")
-      Escreva("Primeira Nota: ")
-      Leia(nota1)
-      Escreva("Segunda Nota: ")
-      Leia(nota2)
-      media <- (nota1 + nota2)/2
-      EscrevaL("-----------------------")
-      EscrevaL(" MEDIA: ", media:3:1)
-      Se (media >=9) e (media <= 10) entao
-         EscrevaL(" APROVEITAMENTO: A ")
+   EscrevaL("-----------------------")
+   EscrevaL(" ESCOLA JAVALI CANSADO ")
+   EscrevaL("-----------------------")
+   Escreva("Primeira Nota: ")
+   Leia(nota1)
+   Escreva("Segunda Nota: ")
+   Leia(nota2)
+   media <- (nota1 + nota2)/2
+   EscrevaL("-----------------------")
+   EscrevaL(" MEDIA: ", media:3:1)
+   Se (media >=9) e (media <= 10) entao
+      EscrevaL(" APROVEITAMENTO: A ")
+   senao
+      Se (media >= 8) e (media < 9) entao
+         EscrevaL (" APROVEITAMENTO: B ")
       senao
-           Se (media >= 8) e (media < 9) entao
-              EscrevaL (" APROVEITAMENTO: B ")
-           senao
-                Se (media >= 7) e (media < 8) entao
-                   EscrevaL (" APROVEITAMENTO: C ")
-                senao
-                     Se (media >= 6) e (media < 7) entao
-                        EscrevaL (" APROVEITAMENTO: D ")
-                     senao
-                          Se (media >= 5) e (media < 6) entao
-                             EscrevaL (" APROVEITAMENTO: E ")
-                          senao
-                             EscrevaL(" APROVEITAMENTO: F ")
-                          FimSe
-                     FimSe
-                FimSe
-           FimSe
+         Se (media >= 7) e (media < 8) entao
+            EscrevaL (" APROVEITAMENTO: C ")
+         senao
+            Se (media >= 6) e (media < 7) entao
+               EscrevaL (" APROVEITAMENTO: D ")
+            senao
+               Se (media >= 5) e (media < 6) entao
+                  EscrevaL (" APROVEITAMENTO: E ")
+               senao
+                  EscrevaL(" APROVEITAMENTO: F ")
+               FimSe
+            FimSe
+         FimSe
       FimSe
-      EscrevaL("-----------------------")
+   FimSe
+   EscrevaL("-----------------------")
 fimalgoritmo
 ````
 
@@ -331,31 +331,31 @@ algoritmo "PartidaFutebol"
 var
    golsTimeA, golsTimeB, diferenca: Real
 inicio
-      EscrevaL("---------------------")
-      EscrevaL("   TIME A x TIME B   ")
-      EscrevaL("---------------------")
-      Escreva("Quantos gols do TIME A? ")
-      Leia(golsTimeA)
-      Escreva("Quantos gols do TIME B? ")
-      Leia(golsTimeB)
-      Se (golsTimeA > golsTimeB) entao
-         diferenca <- golsTimeA - golsTimeB
-      senao
-         diferenca <- golsTimeB - golsTimeA
-      FimSe
-      EscrevaL("-----------------------")
-      EscrevaL(" DIFERENCA: ", diferenca)
-      Escolha diferenca
-         Caso 0
-              EscrevaL(" STATUS: EMPATE ")
-         Caso 1, 2, 3
-              EscrevaL(" STATUS: PARTIDA NORMAL ")
-         Caso 4, 5, 6, 7
-              EscrevaL(" STATUS: GOLEADA ")
-         OutroCaso
-              EscrevaL(" STATUS: ALGO INCOMUM. ")
-              EscrevaL(" Voce digitou os dados corretos? ")
-      FimEscolha
-      EscrevaL("-----------------------")
+   EscrevaL("---------------------")
+   EscrevaL("   TIME A x TIME B   ")
+   EscrevaL("---------------------")
+   Escreva("Quantos gols do TIME A? ")
+   Leia(golsTimeA)
+   Escreva("Quantos gols do TIME B? ")
+   Leia(golsTimeB)
+   Se (golsTimeA > golsTimeB) entao
+      diferenca <- golsTimeA - golsTimeB
+   senao
+      diferenca <- golsTimeB - golsTimeA
+   FimSe
+   EscrevaL("-----------------------")
+   EscrevaL(" DIFERENCA: ", diferenca)
+   Escolha diferenca
+      Caso 0
+            EscrevaL(" STATUS: EMPATE ")
+      Caso 1, 2, 3
+            EscrevaL(" STATUS: PARTIDA NORMAL ")
+      Caso 4, 5, 6, 7
+            EscrevaL(" STATUS: GOLEADA ")
+      OutroCaso
+            EscrevaL(" STATUS: ALGO INCOMUM. ")
+            EscrevaL(" Voce digitou os dados corretos? ")
+   FimEscolha
+   EscrevaL("-----------------------")
 fimalgoritmo
 ````

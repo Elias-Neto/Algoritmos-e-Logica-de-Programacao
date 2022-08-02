@@ -36,6 +36,7 @@ o código, ou seja, a sintaxe da linguagem.
   <li><a href="./aula07.md">Aula 07 - Estruturas Condicionais (Parte 01) 🔀</a></li>
   <li><a href="./aula08.md">Aula 08 - Estruturas Condicionais (Parte 02) 🔀</a></li>
   <li><a href="./aula09.md">Aula 09 - Estruturas de Reptição (Parte 01) 🔁</a></li>
+  <li><a href="./aula10.md">Aula 10 - Estruturas de Reptição (Parte 02) 🔁</a></li>
 </ul>
 
 <br><br>
