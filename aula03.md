@@ -1,6 +1,6 @@
 # Aula 03 - Comandos de Entrada e Operadores Aritméticos 1 🔢
 
-> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
+> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
 
 <br>
 

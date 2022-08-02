@@ -1,6 +1,6 @@
 # Aula 07 - Estruturas Condicionais (Parte 01) 🔀
 
-> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
+> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
 
 > Nessa aula, a gente começa a se perguntar "e se acontecer tal coisa..."
 

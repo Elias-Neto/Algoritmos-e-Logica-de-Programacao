@@ -1,6 +1,6 @@
 # Aula 06 - Exercícios de Algoritmos Resolvidos 🏋️‍♂️
 
-> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
+> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
 
 > Nessa aula iremos ajudar uma moça muito bacana, a Creuza 👩‍🦱
 
