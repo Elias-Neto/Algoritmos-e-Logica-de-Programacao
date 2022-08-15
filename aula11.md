@@ -200,3 +200,7 @@ inicio
   Escreval("A soma dos valores pares é ", valoresPar)
 fimalgoritmo
 ````
+
+<br>
+
+<p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>

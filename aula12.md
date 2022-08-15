@@ -4,10 +4,13 @@
 
 <br>
 
-## **Rotina - parte 1**
+## **Rotina (Parte 01) - Procedimentos**
 
 - rotina é um procedimento repetitivo
-- são utéis para evitarmos repetição de código
+
+- rotinas são utéis para evitarmos repetição de código
+
+<br>
 
 **Sintaxe da Estrutura**
 
@@ -18,14 +21,22 @@ Inicio
 FimProcedimento
 ````
 
+<br>
+
 **Exemplo - Fazer Vitamina de Banana :**
 
 - Se quiser fazer uma vitamina de banana, siga o procedimento abaixo:
+
 - Procedimento para fazer uma vitamina de banana:
+
   - Pegar  2 bananas
+  
   - Pegar 500ml de água
+
   - Pegar 50g de leite
+
   - Coloca tudo no Liquidificador
+
   - Bate tudo com o Liquidificador por 05min
 
 ````
@@ -107,7 +118,7 @@ fimalgoritmo
 // UTILIZANDO PROCEDIMENTOS
 // MENOS REPETIÇÃO DE CÓDIGO (CÓDIGO LIMPO)
 
-algoritmo "PRÁTICA 01 - DETECTOR DE PESADO (com Procedimento)"
+algoritmo "DETECTOR DE PESADO (UTILIZANDO PROCEDIMENTOS)"
 
 var
   contador: Inteiro
@@ -149,6 +160,8 @@ fimalgoritmo
 - Em um procedimento você pode utilizar parâmetros
 
 - Parâmetros são variáveis que estão recebem alguma coisa como referência
+
+<br>
 
 **Exemplo:**
 
@@ -250,12 +263,12 @@ var
     X <- A
     Y <- B
     EscrevaL("DENTRO DO PROCEDIMENTO 'ROTINA'")
-    EscrevaL("Valor de N1: ", N1)
-    EscrevaL("Valor de N2: ", N2)
-    EscrevaL("Valor de A: ", A)
-    EscrevaL("Valor de B: ", B)
-    EscrevaL("Valor de X: ", X)
-    EscrevaL("Valor de Y: ", Y)
+    EscrevaL("Valor de N1: ", N1)     // NÃO vai dar ERRO
+    EscrevaL("Valor de N2: ", N2)     // NÃO vai dar ERRO
+    EscrevaL("Valor de A: ", A)       // NÃO vai dar ERRO
+    EscrevaL("Valor de B: ", B)       // NÃO vai dar ERRO
+    EscrevaL("Valor de X: ", X)       // NÃO vai dar ERRO
+    EscrevaL("Valor de Y: ", Y)       // NÃO vai dar ERRO
   FimProcedimento
 
 inicio
@@ -378,3 +391,7 @@ inicio
   
 fimalgoritmo
 ````
+
+<br>
+
+<p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>

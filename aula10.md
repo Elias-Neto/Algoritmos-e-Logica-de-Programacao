@@ -314,3 +314,7 @@ inicio
   Escreval("Total de mulheres entre 25 e 30 anos e com cabelos loiros é ", quantF)
 fimalgoritmo
 ````
+
+<br>
+
+<p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
