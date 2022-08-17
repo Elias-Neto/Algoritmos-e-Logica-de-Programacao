@@ -40,8 +40,9 @@ o código, ou seja, a sintaxe da linguagem.
   <li><a href="./aula11.md">Aula 11 - Estruturas de Reptição (Parte 03) 🔁</a></li>
   <li><a href="./aula12.md">Aula 12 - Procedimentos 🛠</a></li>
   <li><a href="./aula13.md">Aula 13 - Funções 🛠</a></li>
+  <li><a href="./aula14.md">Aula 14 - Vetores 🗄</a></li>
 </ul>
 
 <br><br>
 
-<p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
+<p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>"aula 13 e 

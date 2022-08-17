@@ -51,7 +51,7 @@ a memória do computador é um **armário** gigante com várias **gavetas**
 
 - todos esses nomes seguem um padrão: "nome escolhido" + tipo da coisa (dado) armazenada
 
-- em uma variável simples, só é possível armazenar 1 valor (se quiser colocar outro valor, tem que tirar o primeiro)
+- em uma variável simples só é possível armazenar 1 valor (se quiser colocar outro valor, tem que tirar o primeiro)
 
 ### 🔠 **Nome de variáveis**
 
