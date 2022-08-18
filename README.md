@@ -2,6 +2,8 @@
   Curso de Algoritmos e Lógica de Programação 🧩
 </h1>
 
+<br>
+
 <div align="center">
     <img src="https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo-branca.png" width="400px" /> 
 </div>
@@ -13,8 +15,8 @@
 O objetivo desse repositório é organizar minha jornada de aprendizado durante o curso 
 de algoritmos e lógica de programação do professor Gustavo Guanabara (curso em vídeo) 💙.
 
-Entender bem os conceitos de algoritmos e lógica de programação são fundamentais para a jornada de dev. Dominando bem essa base
-de algoritmo e desenvolvendo uma boa lógica de programação, ficará mais fácil aprender qualquer linguagem de programação.
+Entender bem os conceitos de algoritmos e lógica de programação são fundamentais para a jornada de um dev. Dominando bem essa base
+de algoritmo e desenvolvendo uma boa lógica de programação, ficará mais fácil aprender qualquer linguagem.
 
 Os conceitos lógicos são sempre os mesmos, o que varia de linguagem para linguagem é a forma de escrever 
 o código, ou seja, a sintaxe da linguagem.
@@ -25,7 +27,7 @@ o código, ou seja, a sintaxe da linguagem.
 
 <br>
 
-<h3>Aulas do Curso</h3>
+<h3>📚 Aulas do Curso</h3>
 <ul>
   <li><a href="./aula01.md">Aula 01 - Introdução a Algoritmos 💭</a></li>
   <li><a href="./aula02.md">Aula 02 - Primeiro Algoritmo 1️⃣</a></li>
@@ -40,10 +42,10 @@ o código, ou seja, a sintaxe da linguagem.
   <li><a href="./aula11.md">Aula 11 - Estruturas de Reptição (Parte 03) 🔁</a></li>
   <li><a href="./aula12.md">Aula 12 - Procedimentos 🛠</a></li>
   <li><a href="./aula13.md">Aula 13 - Funções 🛠</a></li>
-  <li><a href="./aula14.md">Aula 14 - Vetores 🗄</a></li>
-  <li><a href="./aula15.md">Aula 15 - Matrizes 🗄🗄</a></li>
+  <li><a href="./aula14.md">Aula 14 - Vetores 🎲</a></li>
+  <li><a href="./aula15.md">Aula 15 - Matrizes 🎲</a></li>
 </ul>
 
 <br><br>
 
-<p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>"aula 13 e 
+<p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
