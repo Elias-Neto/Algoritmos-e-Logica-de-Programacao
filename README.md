@@ -13,9 +13,9 @@
 <h2>💻 Projeto</h2>
 
 O objetivo desse repositório é organizar minha jornada de aprendizado durante o curso 
-de algoritmos e lógica de programação do professor Gustavo Guanabara (curso em vídeo) 💙.
+de algoritmos e lógica de programação do professor **Gustavo Guanabara** (curso em vídeo) 💙.
 
-Entender bem os conceitos de algoritmos e lógica de programação são fundamentais para a jornada de um dev. Dominando bem essa base
+Entender bem os conceitos de algoritmos e lógica de programação são **fundamentais** para a jornada de um dev. Dominando bem essa **base**
 de algoritmo e desenvolvendo uma boa lógica de programação, ficará mais fácil aprender qualquer linguagem.
 
 Os conceitos lógicos são sempre os mesmos, o que varia de linguagem para linguagem é a forma de escrever 
@@ -24,6 +24,10 @@ o código, ou seja, a sintaxe da linguagem.
 <br>
 
 > Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
+
+<br>
+
+> 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
 
