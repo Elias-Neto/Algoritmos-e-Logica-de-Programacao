@@ -1,8 +1,10 @@
 # 🗄 Aula 14 - Vetores (Variáveis Compostas Parte 1)
 
+<br>
+
 > Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
 
-<BR>
+<br>
 
 > Até o momento só utilizamos variáveis simples. A partir de agora, iremos trabalhar com **_variáveis compostas_**.
 
@@ -51,11 +53,11 @@ inicio
 
 <br>
 
-### **Declaração de uma Variável Composta**
+### **Declarando Um Vetor**
 
 <br>
 
-- Exemplo - declaração de um vetor n do tipo inteiro com 4 espaços
+- Exemplo: declarando um vetor n do tipo inteiro com 4 espaços
 
 ```
 var
@@ -64,7 +66,7 @@ var
 
 <br>
 
-**Atribuição de Valor**
+**Atribuindo Um Valor Num Vetor**
 
 <br>
 
@@ -76,10 +78,10 @@ var
 var
     n: vetor[1..4] de inteiro   // declarando um vetor com nome n do tipo inteiro e com 4 espaços
 inicio
-    n[1] <- 3   // atribuindo/armazenando o valor 3 no vetor n na posição 1 (1° espaço do vator)
-    n[2] <- 5   // atribuindo/armazenando o valor 5 no vetor n na posição 2 (2° espaço do vetor)
-    n[3] <- 1   // atribuindo/armazenando o valor 1 no vetor n na posição 3 (3° espaço do vetor)
-    n[4] <- 0   // atribuindo/armazenando o valor 0 no vetor n na posição 4 (4° espaço do vetor)
+    n[1] <- 3   // atribuindo/armazenando o valor 3, no vetor n, na posição 1 (1° espaço do vator)
+    n[2] <- 5   // atribuindo/armazenando o valor 5, no vetor n, na posição 2 (2° espaço do vetor)
+    n[3] <- 1   // atribuindo/armazenando o valor 1, no vetor n, na posição 3 (3° espaço do vetor)
+    n[4] <- 0   // atribuindo/armazenando o valor 0, no vetor n, na posição 4 (4° espaço do vetor)
 ```
 
 <br>
@@ -102,7 +104,7 @@ inicio
 
   - Homegêneas: pois os espaços que compõe um vetor são do mesmo tipo.
 
-  - Unidemensionais: pois para identificar cada um dos espaços de um vetor é necessário somente um "endereço".
+  - Unidemensionais: pois para identificar cada um dos espaços de um vetor é necessário somente um "endereço" (somente um índece).
 
 <br>
 

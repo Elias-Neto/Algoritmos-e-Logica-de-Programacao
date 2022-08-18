@@ -41,6 +41,7 @@ o código, ou seja, a sintaxe da linguagem.
   <li><a href="./aula12.md">Aula 12 - Procedimentos 🛠</a></li>
   <li><a href="./aula13.md">Aula 13 - Funções 🛠</a></li>
   <li><a href="./aula14.md">Aula 14 - Vetores 🗄</a></li>
+  <li><a href="./aula15.md">Aula 15 - Matrizes 🗄🗄</a></li>
 </ul>
 
 <br><br>
