@@ -1,29 +1,28 @@
-# Aula 01 - Introdução a Algoritmos 💭
+# 💭 Aula 01 - Introdução a Algoritmos 
 
-<h2>O que é algoritmo?</h2>
+## **O que são algoritmos ❔**
 
 <br>
 
-<p>
-  Algoritmos são conjuntos de passos <strong>finitos e organizados</strong> que, quando
-  executados, resolvem um determinado <strong>problema</strong>.
+Algoritmos são conjuntos de passos **finitos e organizados** que, quando
+executados, resolvem um determinado **problema**.
 
-  <br>
+<br>
 
-  Exemplos de Algoritmos: proporção áurea e rotinas cotidianas (fazer um bolo,
-  fazer um saque no caixa eletrônico, atravessar a rua, escovar os dentes, etc..). 
+Exemplos de Algoritmos: rotinas cotidianas (fazer um bolo,
+fazer um saque no caixa eletrônico, atravessar a rua, escovar os dentes, etc..). 
 
-  <br>
+<br>
 
-  Eles estão presentes em praticamente tudo: sites, aplicativos, jogos, nosso cotidiano...
+Algoritmos estão presentes em praticamente tudo: sites, aplicativos, jogos, nosso cotidiano...
 
-  <br>
+<br>
 
-  Exemplo de um algoritmo presente em nossa rotina cotidiana quando vamos <em>atravessar a rua</em>:
-</p>
+Exemplo de um algoritmo presente em nossa rotina cotidiana quando vamos ***atravessar a rua***:
+
 
 ````
-  ✅ É um Algoritmo                  ✅ É um Algoritmo                   ❌ Não é um Algoritm
+  ✅ É um Algoritmo                  ✅ É um Algoritmo                   ❌ Não é um Algoritmo
 
   Algoritmo AtravessarRua             Algoritmo AtrvessarRua               Algoritmo AtravessarRua
     Olhar para a direita                Olhar para a esquerda                Atravesse
@@ -36,38 +35,42 @@
   Fim-Algoritmo                       Fim-Algoritmo                        FimAlgoritmo
 ````
 
-<p>
-  Todo algoritmo respeita padrões/rotinas e resolve algum problema.
-</p>
+<br>
 
-<p>
-  A partir da segunda aula, o foco será em algoritmos computacionais. Esse tipo de algoritmo segue o mesmo conceito, porém,
-  o foco de execução é diferente.
-</p>
+> Todo algoritmo ***respeita padrões/rotinas*** e ***resolve algum problema***.
 
 <br>
 
-<h2>O que são Algoritmos Computacionais?</h2>
+A partir da segunda aula, o foco será em **algoritmos computacionais**. Esse tipo de algoritmo segue o mesmo conceito, porém,
+o foco de execução é diferente.
 
-<p>
-  São passos a serem seguidos por um módulo processador e seus respectivos usuários que, quando executados
-  na ordem correta, conseguem realizar determinada tarefa.
+<br>
 
-  <br>
+## **O que são Algoritmos Computacionais❔**
 
-  Todo algoritmo computacional começa na cabeça do progrmador com uma lógica de programação. Após pensar 
-  em uma boa lógica, o segundo passo é expressar suas ideias por meio de uma linguagem de programação 
-  para construir uma aplicação completa.
+<br>
 
-  <br>
+São passos a serem seguidos por um módulo processador e seus respectivos usuários que, quando executados
+na ordem correta, conseguem realizar determinada tarefa.
 
-  Existem várias formas de você expressar sua lógica, por meio de: Fluxograma, Pseudocódigo e Linguagem de Programação.
-  1. Fluxograma é um tipo de diagrama; 
-  2. Pseudocódigo é uma forma simples de escrever código utilizando uma linguagem próxima da que você fala;
-  3. Linguagem de programação é um tipo de linguagem que tenta unir o entendimento do ser humano com o 
-  entendimento da máquina - utilizando sintaxes e lógicas.
-</p>
+<br>
+
+Todo algoritmo computacional começa na **cabeça do progrmador** com uma **lógica de programação**. Após pensar 
+em uma boa lógica, o segundo passo é expressar suas ideias por meio de uma **linguagem de programação**
+para construir uma aplicação completa.
+
+<br>
+
+Existem várias formas de você expressar sua lógica, por meio de: Fluxograma, Pseudocódigo e Linguagem de Programação.
+1. **Fluxograma** é um tipo de diagrama; 
+2. **Pseudocódigo** é uma forma simples de escrever código utilizando uma linguagem próxima da que você fala;
+3. **Linguagem de programação** é um tipo de linguagem que tenta unir o entendimento do ser humano com o 
+entendimento da máquina - utilizando sintaxes e lógicas.
 
 <br><br>
 
 <p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
+
+<br>
+
+<a href="./README.md">Voltar</a>
