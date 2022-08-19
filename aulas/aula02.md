@@ -13,8 +13,6 @@
 
 ## 🏛 **Estrutura Básica de um Algoritmo no Visualg**
 
-<br>
-
 - No visualg, a estrutura básica de um algoritmo é formada por quatro **palavras reservadas**:
 
   - **"algoritmo"** : Define a existência e o início de um algoritmo. É necessário colocar um nome para o algoritmo.
@@ -47,8 +45,6 @@ fimalgoritmo
 
 ## 💬 **Comentários**
 
-<br>
-
 - São trechos de códigos não executáveis.
 
 - Utilizados normalmente para organização/explicação do código.
@@ -71,8 +67,6 @@ fimalgoritmo
 
 ## 📤 **Comandos de Saída de Dados (Output)**
 
-<br>
-
 - São comandos que, quando executados, mostrarão algo na tela.
 
 - São responsáveis pela saída de dados.
@@ -94,8 +88,6 @@ fimalgoritmo
 <br>
 
 ## 🗄 **Variáveis**
-
-<br>
 
 - Para entender o conceito de variáveis pense na seguinte analogia:
 a memória do computador é um **"armário"** gigante com várias **espaços** vazios.
@@ -162,8 +154,6 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
 ## 🎲 **Tipos de Dados**
 
-<br>
-
 - Inicialmente, vamos abordar só os tipos de dados **primitivos**:
 
   - **Inteiro**
@@ -189,8 +179,6 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 <br>
 
 ## **Exemplo de um algoritmo utilizando os conceitos que vimos até agora:**
-
-<br>
 
 ````
 algoritmo "Exemplo"
