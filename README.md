@@ -33,21 +33,21 @@ o código, ou seja, a sintaxe da linguagem.
 
 <h3>📚 Aulas do Curso</h3>
 <ul>
-  <li><a href="./aula01.md">Aula 01 - Introdução a Algoritmos 💭</a></li>
-  <li><a href="./aula02.md">Aula 02 - Primeiro Algoritmo 1️⃣</a></li>
-  <li><a href="./aula03.md">Aula 03 - Comando de Entrada e Operadores 🔢</a></li>
-  <li><a href="./aula04.md">Aula 04 - Operadores Lógicos e Relacionais 🧠</a></li>
+  <li><a href="./aulas/aula01.md">Aula 01 - Introdução a Algoritmos 💭</a></li>
+  <li><a href="./aulas/aula02.md">Aula 02 - Primeiro Algoritmo 1️⃣</a></li>
+  <li><a href="./aulas/aula03.md">Aula 03 - Comando de Entrada e Operadores 🔢</a></li>
+  <li><a href="./aulas/aula04.md">Aula 04 - Operadores Lógicos e Relacionais 🧠</a></li>
   <li>Aula 05 - Introdução ao Scratch 😺</li>
-  <li><a href="./aula06.md">Aula 06 - Exercícios de Algoritmos Resolvidos 🏋️‍♂️</a></li>
-  <li><a href="./aula07.md">Aula 07 - Estruturas Condicionais (Parte 01) 🔀</a></li>
-  <li><a href="./aula08.md">Aula 08 - Estruturas Condicionais (Parte 02) 🔀</a></li>
-  <li><a href="./aula09.md">Aula 09 - Estruturas de Reptição (Parte 01) 🔁</a></li>
-  <li><a href="./aula10.md">Aula 10 - Estruturas de Reptição (Parte 02) 🔁</a></li>
-  <li><a href="./aula11.md">Aula 11 - Estruturas de Reptição (Parte 03) 🔁</a></li>
-  <li><a href="./aula12.md">Aula 12 - Procedimentos 🛠</a></li>
-  <li><a href="./aula13.md">Aula 13 - Funções 🛠</a></li>
-  <li><a href="./aula14.md">Aula 14 - Vetores 🎲</a></li>
-  <li><a href="./aula15.md">Aula 15 - Matrizes 🎲</a></li>
+  <li><a href="./aulas/aula06.md">Aula 06 - Exercícios de Algoritmos Resolvidos 🏋️‍♂️</a></li>
+  <li><a href="./aulas/aula07.md">Aula 07 - Estruturas Condicionais (Parte 01) 🔀</a></li>
+  <li><a href="./aulas/aula08.md">Aula 08 - Estruturas Condicionais (Parte 02) 🔀</a></li>
+  <li><a href="./aulas/aula09.md">Aula 09 - Estruturas de Reptição (Parte 01) 🔁</a></li>
+  <li><a href="./aulas/aula10.md">Aula 10 - Estruturas de Reptição (Parte 02) 🔁</a></li>
+  <li><a href="./aulas/aula11.md">Aula 11 - Estruturas de Reptição (Parte 03) 🔁</a></li>
+  <li><a href="./aulas/aula12.md">Aula 12 - Procedimentos 🛠</a></li>
+  <li><a href="./aulas/aula13.md">Aula 13 - Funções 🛠</a></li>
+  <li><a href="./aulas/aula14.md">Aula 14 - Vetores 🎲</a></li>
+  <li><a href="./aulas/aula15.md">Aula 15 - Matrizes 🎲</a></li>
 </ul>
 
 <br><br>
