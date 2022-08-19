@@ -112,7 +112,7 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
 <br>
 
-<img align="center" src="./variaveis.png">
+<img align="center" src="./images/variaveis.png">
 
 <br>
 
@@ -121,7 +121,7 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
 <br>
 
-<img align="center" src="./variaveis.gif">
+<img align="center" src="./images/variaveis.gif">
 
 <br>
 
