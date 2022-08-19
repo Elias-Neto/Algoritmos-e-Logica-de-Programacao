@@ -8,13 +8,13 @@
 
 ## 📥 **Comandos de Entrada de Dados**
 
-<br>
+
 
 - São comandos que, quando executados, aguardarão uma resposta.
 
 - São responsáveis pela entrada de dados.
 
-<br>
+
 
 ````
 algoritmo "apresentação"
@@ -38,8 +38,6 @@ fimalgoritmo
 
 - Faça um programa que solicite dois números ao usuário, calcule e mostre a soma entre eles.
 
-<br>
-
 ````
 algoritmo "Somar Dois Números"
 
@@ -60,8 +58,6 @@ fimalgoritmo
 <br>
 
 ## ➗ **Operadores Aritméticos**
-
-<br>
 
 - São utilizados para fazer operações aritméticas:
 
@@ -103,8 +99,6 @@ fimalgoritmo
 
 - Faça um programa que solicite dois números ao usuário, calcule e mostre a média entre eles.
 
-<br>
-
 ````
 algoritmo "Média Entre Dois Números"
 
@@ -126,8 +120,6 @@ fimalgoritmo
 <br>
 
 ## 🛠 Funções Aritméticas
-
-<br>
 
 - São funcionalidades do próprio visualg que servem para realizar mais algumas operações aritméticas.
 
