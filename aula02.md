@@ -1,23 +1,69 @@
-# Aula 02 - Primeiro Algoritmo 1️⃣
+# 1️⃣ Aula 02 - Primeiro Algoritmo
+
+<br>
 
 > Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
 
 <br>
 
+> Nessa aula, veremos conceitos fundamentais para o universo da programação. Entendendo bem esses conceito
+> será fácil desenvolvermos nosso primeiro algoritmo. 😉
+
+<br>
+
+## 🏛 **Estrutura Básica de um Algoritmo no Visualg**
+
+<br>
+
+- No visualg, a estrutura básica de um algoritmo é formada por quatro palavras reservadas:
+
+  - "algoritmo" : Define a existência e o início do algoritmo. É necessário colocar um nome para o algoritmo.
+
+  - "var" : Define a sessão de declaração de variáveis (conceito que vamos entender melhor mais adiante).
+
+  - "inicio" : Define a sessão de comandos (conceito que vamos entender melhor mais adiante).
+
+  - "fimalgoritmo" : Define o fim de um algoritmo.
+
+<br>
+
+````
+algoritmo "nome do algoritmo"
+
+var
+  // Sessão de Declaração Variáveis
+
+inicio
+  // Sessão de Comandos
+
+fimalgoritmo
+````
+
+<br>
+
+> No visualg, você pode digitar "!", apertar "CTRL + ESPAÇO" e o próprio visualg formará essa estrutura básica.
+
 <br>
 
 ## 💬 **Comentários**
 
-- são trechos de códigos não executáveis
-- utilizados normalmente para organização/explicação do código
+<br>
+
+- São trechos de códigos não executáveis.
+
+- Utilizados normalmente para organização/explicação do código.
+
+<br>
 
 ````
-algoritmo "comemtarios" 
+algoritmo "Comentários" 
+
 var
 
 inicio
-      // isto é um comentário
-      Escreva("Olá, Mundo!")
+  // isto é um comentário
+  Escreva("Olá, Mundo!")
+
 fimalgoritmo
 ````
 
@@ -25,16 +71,23 @@ fimalgoritmo
 
 ## 📤 **Comandos de Saída de Dados (Output)**
 
-- são comandos que, quando executados, mostrarão algo na tela
-- responsáveis pela saída de dados
+<br>
+
+- São comandos que, quando executados, mostrarão algo na tela.
+
+- São responsáveis pela saída de dados.
+
+<br>
 
 ````
-algoritmo "comandos de saida"
+algoritmo "Comandos de Saída de Dados (Output)"
+
 var
 
 inicio
-      Escreva("Olá, Mundo!")    // escreverá "Olá, Mundo!" na tela
-      EscrevaL("Olá, Mundo!")   // escreverá "Olá, Mundo!" na tela e pulará uma linha
+  Escreva("Olá, Mundo!")    // escreverá "Olá, Mundo!" na tela
+  EscrevaL("Olá, Mundo!")   // escreverá "Olá, Mundo!" na tela e pulará uma linha
+
 fimalgoritmo
 ````
 
@@ -42,63 +95,115 @@ fimalgoritmo
 
 ## 🗄 **Variáveis**
 
-- para entender o conceito de variáveis pense na seguinte analogia:
-a memória do computador é um **armário** gigante com várias **gavetas**
+<br>
 
-- essas gavetas são as variáveis, elas tem o poder de guardar coisas (dados)
+- Para entender o conceito de variáveis pense na seguinte analogia:
+a memória do computador é um **"armário"** gigante com várias **espaços** vazios.
 
-- cada gaveta dessa possui um adesivo com seu nome
+- Essas espaços são as *variáveis*, elas **servem para armazenar valores (dados)**.
 
-- todos esses nomes seguem um padrão: "nome escolhido" + tipo da coisa (dado) armazenada
+- Cada espaço desse precisa ser identificado, por isso, cada um possui um "adesivo" com seu nome.
 
-- em uma variável simples só é possível armazenar 1 valor (se quiser colocar outro valor, tem que tirar o primeiro)
+<br>
+
+> **Exemplo**: na memória do computador ("armário"), eu quero reservar dois espaços (variáveis):
+> um pra colocar uma bola (que é um tipo de brinquedo), e outro pra colocar um par de sapatos 
+> (que é um tipo de calçado).
+
+<br>
+
+<img align="center" src="./variaveis.png">
+
+<br>
+
+> Se eu tiver outra bola a qual queria guardar no mesmo espaço, eu preciso tirar a primeira para
+> poder colocar a segunda. 
+
+<br>
+
+<img align="center" src="./variaveis.gif">
+
+<br>
+
+> **Em uma variável simples, só podemos armarzenar um valor.**
+
+<br>
 
 ### 🔠 **Nome de variáveis**
 
-[x] Deve começar com uma letra
+<br>
 
-[x] Não pode utilizar acentos
+- Todos os nomes de variáveis seguem um padrão: nome da variável + tipo de dado armazenado
 
-[x] Não pode utilizar símbolos, exceto _ (underline)
+- Existem algumas regras que devemos seguir ao nomear uma variável:
 
-[x] Não pode ter espaços em branco
+  [x] Deve começar com uma letra
 
-[x] Não pode ser uma plavra reserva
+  [x] Não pode utilizar acentos
+
+  [x] Não pode utilizar símbolos, exceto _ (underline)
+
+  [x] Não pode ter espaços em branco
+
+  [x] Não pode ser uma plavra reservada
+
+<br>
 
 ````
-  // Exemplos:
-  
-  ✅ Nota1     ❌ Média
-  ❌ 9idade    ✅ inicio_algoritmo
-  ✅ media     ❌ Salário Bruto
-  ❌ var       ✅ salarioBruto 
+// Exemplos:
+
+✅ Nota1     ❌ Média
+❌ 9idade    ✅ inicio_algoritmo
+✅ media     ❌ Salário Bruto
+❌ var       ✅ salarioBruto 
 ````
 
 <br>
 
 ## 🎲 **Tipos de Dados**
 
-Inicialmente, vamos abordar só os tipos de dados primitivos:
+<br>
 
-- Inteiro - (1, 3, -5, 198, 0)
-- Real - (0.5, 5.0, 9.8, -77.3, 3.1415)
-  - na programação, utilizamos "." e não ","
-- Caractere - ("Elias", "Neto", "Algoritmo", "123") 
-  - String é um conjunto de carcteres
-- Lógico - (verdadeiro, falso)
+- Inicialmente, vamos abordar só os tipos de dados **primitivos**
+
+  - **Inteiro**
+
+    - Ex: 1, 3, -5, 198, 0
+
+  - **Real**
+
+    - Ex: 0.5, 5.0, 9.8, -77.3, 3.1415
+
+    - na programação, utilizamos "." e não ","
+
+  - **Caractere**
+
+    - Ex: "Elias", "Neto", "Algoritmo", "123")
+
+    - *String é um conjunto de carcteres*
+
+  - **Lógico**
+
+    - Ex: verdadeiro, falso
 
 <br>
 
-Exemplo de um algoritmo utilizando os conceitos que vimos até agora:
+## **Exemplo de um algoritmo utilizando os conceitos que vimos até agora:**
+
+<br>
+
 ````
-  algoritmo "apanhado do que vimos"
-  var
-    msg1, msg2: caractere
-  inicio
-        msg1 <- "Olá,"        // msg1 recebe "Olá"      - atribuição de valor
-        msg2 <- " Mundo!"     // msg2 recebe "Mundo!"   - atribuição de valor
-        Escreva(msg1, msg2) 
-  fimalgoritmo
+algoritmo "Exemplo"
+
+var
+  msg1, msg2: caractere // declarando duas variáveis do tipo caractere
+
+inicio
+  msg1 <- "Olá,"        // msg1 recebe "Olá"      - atribuindo um valor à variável msg1
+  msg2 <- " Mundo!"     // msg2 recebe "Mundo!"   - atribuindo um valor à variável msg2
+  Escreva(msg1, msg2)   // comando de saída       - exibirá na tela os valores dentro das variáveis msg1 e msg2
+
+fimalgoritmo
 ````
 
 <br><br>
