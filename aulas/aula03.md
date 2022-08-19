@@ -6,6 +6,11 @@
 
 <br>
 
+> 🖖 Essas anotações foram feitas a partir das aulas do professor Gustavo Guanabara. <br>
+> 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
+
+<br>
+
 ## 📥 **Comandos de Entrada de Dados**
 
 
@@ -23,9 +28,9 @@ var
    nome: caractere
 
 inicio
-      Escreva("Digite seu nome: ")     // comando de saída de dados
-      Leia(nome)                       // comando de ENTRADA de dados   - recebrá um valor digitado pelo usuário E atribuirá esse valor na variável nome
-      Escreva("Muito prazer ", nome)   // comando de saída de dados
+   Escreva("Digite seu nome: ")     // comando de saída de dados
+   Leia(nome)                       // comando de ENTRADA de dados   - recebrá um valor digitado pelo usuário E atribuirá esse valor na variável nome
+   Escreva("Muito prazer ", nome)   // comando de saída de dados
 
 fimalgoritmo
 ````
@@ -45,12 +50,12 @@ var
    numero1, numero2, soma: Real
 
 inicio
-      Escreva("Informe um número: ")
-      Leia(numero1)
-      Escreva("Informe outro número: ")
-      Leia(numero2)
-      soma <- numero1 + numero2
-      Escreva("A soma entre ", numero1, " e ", numero2, " é ", soma)
+   Escreva("Informe um número: ")
+   Leia(numero1)
+   Escreva("Informe outro número: ")
+   Leia(numero2)
+   soma <- numero1 + numero2
+   Escreva("A soma entre ", numero1, " e ", numero2, " é ", soma)
       
 fimalgoritmo
 ````
@@ -61,19 +66,17 @@ fimalgoritmo
 
 - São utilizados para fazer operações aritméticas:
 
-   - ( + ) Adição
+<br>
 
-   - ( - ) Subtração
-
-   - ( * ) Multiplicação
-
-   - ( / ) Divisão
-
-   - ( \ ) Divisão Inteira
-
-   - ( ^ ) Exponenciação
-
-   - ( % ) Módulo
+Símbolo   | Significado
+--------- | ------
+( + ) | Adição
+( - ) | Subtração
+( * ) | Multiplicação
+( / ) | Divisão
+( \ ) | Divisão Inteira
+( ^ ) | Exponenciação
+( % ) | Módulo
 
 <br>
 
@@ -83,13 +86,14 @@ fimalgoritmo
 
 - A Ordem de precedência indica a ordem que os operadores serão considerados dentro de uma mesma expressão.
 
-   - 1°) ( )  parênteses
+<br>
 
-   - 2°) ^   exponenciação
-
-   - 3°) _*_ /  multiplicação/divisão
-
-   - 4°) _+_ _-_  soma/subtração
+Ordem | Símbolo | Significado
+:--------- | :------: | -------:
+1° | ( ) | Parênteses
+2° | ^ | Exponenciação
+3° | _*_ / | Multiplicação/divisão
+4° | _+_ _-_ | Soma/Subtração
 
 <br>
 
