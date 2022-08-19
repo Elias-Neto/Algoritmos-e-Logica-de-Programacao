@@ -73,4 +73,4 @@ entendimento da máquina - utilizando sintaxes e lógicas.
 
 <br>
 
-<a href=".,/README.md">Voltar</a>
+<a href="../README.md">Voltar</a>
