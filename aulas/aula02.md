@@ -28,8 +28,6 @@
 
   - **"fimalgoritmo"** : Define o fim de um algoritmo.
 
-
-
 ````
 algoritmo "nome do algoritmo"
 
@@ -50,9 +48,9 @@ fimalgoritmo
 
 ## 💬 **Comentários**
 
-- São trechos de códigos não executáveis.
+- São trechos de códigos **não executáveis**.
 
-- Utilizados normalmente para organização/explicação do código.
+- Utilizados normalmente para **organização/explicação** do código.
 
 
 
@@ -72,7 +70,7 @@ fimalgoritmo
 
 ## 📤 **Comandos de Saída de Dados (Output)**
 
-- São comandos que, quando executados, mostrarão algo na tela.
+- São comandos que, quando executados, **mostrarão algo na tela**.
 
 - São responsáveis pela saída de dados.
 
@@ -99,7 +97,7 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
 - Essas espaços são as *variáveis*, elas **servem para armazenar valores (dados)**.
 
-- Cada espaço desse precisa ser identificado, por isso, cada um possui um "adesivo" com seu nome.
+- Cada espaço desse precisa ser identificado, por isso, cada um possui um "adesivo" com seu **nome**.
 
 <br>
 
