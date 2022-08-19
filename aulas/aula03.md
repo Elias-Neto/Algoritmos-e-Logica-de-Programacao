@@ -1,4 +1,6 @@
-# Aula 03 - Comandos de Entrada e Operadores Aritméticos 1 🔢
+# 🔢 Aula 03 - Comandos de Entrada e Operadores Aritméticos 1 
+
+<br>
 
 > Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
 
@@ -6,17 +8,25 @@
 
 ## 📥 **Comandos de Entrada de Dados**
 
-- são comandos que, quando executados, aguardarão uma resposta
-- responsáveis pela entrada de dados
+<br>
+
+- São comandos que, quando executados, aguardarão uma resposta.
+
+- São responsáveis pela entrada de dados.
+
+<br>
 
 ````
 algoritmo "apresentação"
+
 var
    nome: caractere
+
 inicio
       Escreva("Digite seu nome: ")     // comando de saída de dados
-      Leia(nome)                       // comando de ENTRADA de dados
+      Leia(nome)                       // comando de ENTRADA de dados   - recebrá um valor digitado pelo usuário E atribuirá esse valor na variável nome
       Escreva("Muito prazer ", nome)   // comando de saída de dados
+
 fimalgoritmo
 ````
 
@@ -24,19 +34,26 @@ fimalgoritmo
 
 ### 🏋️‍♂️ **Exercício Prático - Somar Dois Números :**
 
-* Faça um programa que solicite dois números ao usuário, calcule e mostre a soma entre eles.
+<br>
+
+- Faça um programa que solicite dois números ao usuário, calcule e mostre a soma entre eles.
+
+<br>
 
 ````
-algoritmo "soma"
+algoritmo "Somar Dois Números"
+
 var
-   N1, N2, S: Real
+   numero1, numero2, soma: Real
+
 inicio
       Escreva("Informe um número: ")
-      Leia(N1)
+      Leia(numero1)
       Escreva("Informe outro número: ")
-      Leia(N2)
-      S <- N1 + N2
-      Escreva("A soma entre ", N1, " e ", N2, " é ", S)
+      Leia(numero2)
+      soma <- numero1 + numero2
+      Escreva("A soma entre ", numero1, " e ", numero2, " é ", soma)
+      
 fimalgoritmo
 ````
 
@@ -44,44 +61,65 @@ fimalgoritmo
 
 ## ➗ **Operadores Aritméticos**
 
-* ( + ) Adição
-* ( - ) Subtração
-* ( * ) Multiplicação
-* ( / ) Divisão
-* ( \ ) Divisão Inteira
-* ( ^ ) Exponenciação
-* ( % ) Módulo
+<br>
+
+- São utilizados para fazer operações aritméticas:
+
+   - ( + ) Adição
+
+   - ( - ) Subtração
+
+   - ( * ) Multiplicação
+
+   - ( / ) Divisão
+
+   - ( \ ) Divisão Inteira
+
+   - ( ^ ) Exponenciação
+
+   - ( % ) Módulo
 
 <br>
 
 ### ❕ **Ordem de precedência**
 
-ordem de precedência indica a ordem que os operadores serão considerados 
-dentro de uma mesma expressão
+<br>
 
-1. ( )  parênteses
-2.  ^   exponenciação
-3. _*_ /  multiplicação/divisão
-4. _+_ _-_  soma/subtração
+- A Ordem de precedência indica a ordem que os operadores serão considerados dentro de uma mesma expressão.
+
+   - 1°) ( )  parênteses
+
+   - 2°) ^   exponenciação
+
+   - 3°) _*_ /  multiplicação/divisão
+
+   - 4°) _+_ _-_  soma/subtração
 
 <br>
 
-### 🏋️‍♂️ **Exercício Prático - Média de Dois Números :**
+### 🏋️‍♂️ **Exercício Prático - Média Entre Dois Números :**
 
-* Faça um programa que solicite dois números ao usuário, calcule e mostre a média entre eles.
+<br>
+
+- Faça um programa que solicite dois números ao usuário, calcule e mostre a média entre eles.
+
+<br>
 
 ````
-algoritmo "media"
+algoritmo "Média Entre Dois Números"
+
 var
-   N1, N2: Inteiro
-   M: Real
+   numero1, numero2: Inteiro
+   media: Real
+
 inicio
-      Escreva("Informe um número: ")
-      Leia(N1)
-      Escreva("Indorme um número: ")
-      Leia(N2)
-      M <- (N1+N2)/2
-      Escreva("A média entre ", N1, " e ", N2, " é ", M)
+   Escreva("Informe um número: ")
+   Leia(numero1)
+   Escreva("Indorme um número: ")
+   Leia(numero2)
+   media <- (numero1+numero2)/2
+   Escreva("A média entre ", numero1, " e ", numero2, " é ", media)
+
 fimalgoritmo
 ````
 
@@ -89,17 +127,23 @@ fimalgoritmo
 
 ## 🛠 Funções Aritméticas
 
+<br>
+
+- São funcionalidades do próprio visualg que servem para realizar mais algumas operações aritméticas.
+
+<br>
+
 Função | O que é | Exemplo
 :--------- | :------: | -------:
-Abs | valor absoluto | Abs(-10)  <span style="color:green">10</span>
-Exp | exponenciação | Exp(3, 2)  <span style="color:green">9</span>
-Int | valor inteiro | Int(3.9)  <span style="color:green">3</span>
-RaizQ | raiz quadrada | Int(25)  <span style="color:green">5</span>
-Pi | retorna Pi | Pi  <span style="color:green">3.14...</span>
-Sen | Sen(rad) | Sen(0.523)  <span style="color:green">0.5</span>
-Cos | Coseno(rad) | Cos(0.523)  <span style="color:green">0.86</span>
-Tan | Tangente(rad) | Tan(0.523)  <span style="color:green">0.57</span>
-GrauRad | Graus para rad | GraupRad(30)  <span style="color:green">0.52</span>
+Abs | valor absoluto | Abs(-10) 10
+Exp | exponenciação | Exp(3, 2) 9
+Int | valor inteiro | Int(3.9) 3
+RaizQ | raiz quadrada | Int(25) 5
+Pi | retorna Pi | Pi 3.14...
+Sen | Sen(rad) | Sen(0.523) 0.5
+Cos | Coseno(rad) | Cos(0.523) 0.86
+Tan | Tangente(rad) | Tan(0.523) 0.57
+GrauRad | Graus para rad | GraupRad(30) 0.52
 
 <br><br>
 
