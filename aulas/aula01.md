@@ -2,6 +2,11 @@
 
 <br>
 
+> 🖖 Essas anotações foram feitas a partir das aulas do professor Gustavo Guanabara. <br>
+> 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
+
+<br>
+
 ## **O que são algoritmos ❔**
 
 Algoritmos são conjuntos de passos **finitos e organizados** que, quando
