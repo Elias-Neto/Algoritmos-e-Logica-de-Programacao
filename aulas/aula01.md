@@ -1,8 +1,8 @@
 # 💭 Aula 01 - Introdução a Algoritmos 
 
-## **O que são algoritmos ❔**
-
 <br>
+
+## **O que são algoritmos ❔**
 
 Algoritmos são conjuntos de passos **finitos e organizados** que, quando
 executados, resolvem um determinado **problema**.
@@ -47,8 +47,6 @@ o foco de execução é diferente.
 <br>
 
 ## **O que são Algoritmos Computacionais❔**
-
-<br>
 
 São passos a serem seguidos por um módulo processador e seus respectivos usuários que, quando executados
 na ordem correta, conseguem realizar determinada tarefa.
