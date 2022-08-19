@@ -15,15 +15,15 @@
 
 <br>
 
-- No visualg, a estrutura básica de um algoritmo é formada por quatro palavras reservadas:
+- No visualg, a estrutura básica de um algoritmo é formada por quatro **palavras reservadas**:
 
-  - "algoritmo" : Define a existência e o início do algoritmo. É necessário colocar um nome para o algoritmo.
+  - **"algoritmo"** : Define a existência e o início de um algoritmo. É necessário colocar um nome para o algoritmo.
 
-  - "var" : Define a sessão de declaração de variáveis (conceito que vamos entender melhor mais adiante).
+  - **"var"** : Define a sessão de declaração de variáveis (conceito que vamos entender melhor mais adiante).
 
-  - "inicio" : Define a sessão de comandos (conceito que vamos entender melhor mais adiante).
+  - **"inicio"** : Define a sessão de comandos (conceito que vamos entender melhor mais adiante).
 
-  - "fimalgoritmo" : Define o fim de um algoritmo.
+  - **"fimalgoritmo"** : Define o fim de um algoritmo.
 
 <br>
 
@@ -133,9 +133,9 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
 <br>
 
-- Todos os nomes de variáveis seguem um padrão: nome da variável + tipo de dado armazenado
+- Todos os nomes de variáveis seguem um padrão: **nome da variável + tipo de dado armazenado**
 
-- Existem algumas regras que devemos seguir ao nomear uma variável:
+- Existem algumas **regras** que devemos seguir ao nomear uma variável:
 
   [x] Deve começar com uma letra
 
@@ -164,7 +164,7 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
 <br>
 
-- Inicialmente, vamos abordar só os tipos de dados **primitivos**
+- Inicialmente, vamos abordar só os tipos de dados **primitivos**:
 
   - **Inteiro**
 
@@ -178,7 +178,7 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
   - **Caractere**
 
-    - Ex: "Elias", "Neto", "Algoritmo", "123")
+    - Ex: "Elias", "Neto", "Algoritmo", "123"
 
     - *String é um conjunto de carcteres*
 
