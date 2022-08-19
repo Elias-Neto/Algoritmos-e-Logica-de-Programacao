@@ -6,6 +6,11 @@
 
 <br>
 
+> 🖖 Essas anotações foram feitas a partir das aulas do professor Gustavo Guanabara. <br>
+> 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
+
+<br>
+
 > Nessa aula, veremos conceitos fundamentais para o universo da programação. Entendendo bem esses conceito
 > será fácil desenvolvermos nosso primeiro algoritmo. 😉
 
@@ -23,7 +28,7 @@
 
   - **"fimalgoritmo"** : Define o fim de um algoritmo.
 
-<br>
+
 
 ````
 algoritmo "nome do algoritmo"
@@ -49,7 +54,7 @@ fimalgoritmo
 
 - Utilizados normalmente para organização/explicação do código.
 
-<br>
+
 
 ````
 algoritmo "Comentários" 
@@ -71,7 +76,7 @@ fimalgoritmo
 
 - São responsáveis pela saída de dados.
 
-<br>
+
 
 ````
 algoritmo "Comandos de Saída de Dados (Output)"
@@ -104,7 +109,9 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
 <br>
 
-<img align="center" src="./images/variaveis.png">
+<div align="center">
+  <img align="center" width="500px" src="./images/variaveis.png">  
+</div>
 
 <br>
 
@@ -113,7 +120,10 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
 <br>
 
-<img align="center" src="./images/variaveis.gif">
+<div align="center"> 
+  <img width="500px" src="./images/variaveis.gif">
+</div>
+
 
 <br>
 
@@ -139,7 +149,7 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
   [x] Não pode ser uma plavra reservada
 
-<br>
+
 
 ````
 // Exemplos:
