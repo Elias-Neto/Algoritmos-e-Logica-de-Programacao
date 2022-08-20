@@ -6,7 +6,7 @@
 
 <br>
 
-> 🖖 Essas anotações foram feitas a partir das aulas do professor Gustavo Guanabara. <br>
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
 > 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
@@ -137,15 +137,15 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
 - Existem algumas **regras** que devemos seguir ao nomear uma variável:
 
-  [x] Deve começar com uma letra
+  [x] Deve começar com uma **letra**
 
-  [x] Não pode utilizar acentos
+  [x] Não pode utilizar **acentos**
 
-  [x] Não pode utilizar símbolos, exceto _ (underline)
+  [x] Não pode utilizar **símbolos**, exceto _ (underline)
 
-  [x] Não pode ter espaços em branco
+  [x] Não pode ter **espaços** em branco
 
-  [x] Não pode ser uma plavra reservada
+  [x] Não pode ser uma **plavra reservada**
 
 
 
@@ -172,7 +172,7 @@ a memória do computador é um **"armário"** gigante com várias **espaços** v
 
     - Ex: 0.5, 5.0, 9.8, -77.3, 3.1415
 
-    - na programação, utilizamos "." e não ","
+    - Na programação, utilizamos "." e não ","
 
   - **Caractere**
 
