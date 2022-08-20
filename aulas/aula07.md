@@ -23,7 +23,7 @@
 
 <br>
 
-### Sintaxe da estrutura: 
+### Sintaxe da Estrutura: 
 
 - se ***acontecer tal coisa*** então ***faça aquilo***.
 
@@ -95,7 +95,7 @@ execute o bloco y.
 
 <br>
 
-### Sintaxe da estrutura: 
+### Sintaxe da Estrutura: 
 
 - se ***acontecer tal coisa*** então ***faça isso*** senão ***faça aquilo***.
 
