@@ -6,20 +6,16 @@
 
 <br>
 
-> 🖖 Essas anotações foram feitas a partir das aulas do professor Gustavo Guanabara. <br>
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
 > 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
 
-## 📥 **Comandos de Entrada de Dados**
+## 📥 **Comandos de Entrada de Dados (Inputs)**
 
+- São comandos que, quando executados, **aguardarão uma resposta**.
 
-
-- São comandos que, quando executados, aguardarão uma resposta.
-
-- São responsáveis pela entrada de dados.
-
-
+- São responsáveis pela **entrada de dados**.
 
 ````
 algoritmo "apresentação"
@@ -131,11 +127,11 @@ fimalgoritmo
 
 Função | O que é | Exemplo
 :--------- | :------: | -------:
-Abs | valor absoluto | Abs(-10) 10
-Exp | exponenciação | Exp(3, 2) 9
-Int | valor inteiro | Int(3.9) 3
-RaizQ | raiz quadrada | Int(25) 5
-Pi | retorna Pi | Pi 3.14...
+Abs | Valor Absoluto | Abs(-10) 10
+Exp | Exponenciação | Exp(3, 2) 9
+Int | Valor Inteiro | Int(3.9) 3
+RaizQ | Raiz Quadrada | Int(25) 5
+Pi | Retorna Pi | Pi 3.14...
 Sen | Sen(rad) | Sen(0.523) 0.5
 Cos | Coseno(rad) | Cos(0.523) 0.86
 Tan | Tangente(rad) | Tan(0.523) 0.57
