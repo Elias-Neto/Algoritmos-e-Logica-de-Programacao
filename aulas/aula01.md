@@ -2,7 +2,7 @@
 
 <br>
 
-> 🖖 Essas anotações foram feitas a partir das aulas do professor Gustavo Guanabara. <br>
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
 > 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
