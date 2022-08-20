@@ -6,7 +6,7 @@
 
 <br>
 
-> 🖖 Essas anotações foram feitas a partir das aulas do professor Gustavo Guanabara. <br>
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
 > 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
@@ -16,8 +16,6 @@
 - Servem para criar uma **relaçãos de comparação** entre dois **valores numéricos**.
 
 - Ao final da operação, **retornam** um valor  do tipo **lógico** (verdadeiro ou falso).
-
-
 
 Operador  | Significado
 --------- | ------
@@ -62,7 +60,7 @@ fimalgoritmo
 
 - Servem para criar uma **relaçãos de comparação** entre dois **valores lógicos**.
 
-- Ao final da operação, **retornam** um valor  do tipo **lógico** (verdadeiro ou falso).
+- Ao final da operação, **retornam** um valor também do tipo **lógico** (verdadeiro ou falso).
 
 <br> 
 
@@ -94,6 +92,10 @@ Paula | Quésia | Eu
 😥 | 😄 | 😥
 😥 | 😥 | 😥
 
+- Essa é a lógica do operador "E", as duas pessoas precisam estarem felizes (Paula E Quésia) para que eu fique feliz. 
+
+- As duas proposições precisam ser verdadeiras para resultar num valor também verdadeiro.
+
 <br>
 
 ### *Operador Lógico **"OU"***
@@ -117,13 +119,16 @@ F | F | F
 
 - Para que eu fique feliz, Paula **OU** Quésia precisam estarem felizes. Caso contrário, irei ficar triste.
 
-
 Paula | Quésia | Eu
 :--------- | :------: | -------:
 😄 | 😄 | 😄
 😄 | 😥 | 😄
 😥 | 😄 | 😄
 😥 | 😥 | 😥
+
+- Já na lógica do operador "OU", apenas uma pessoa precisa estar feliz (Paula OU Quésia) para que eu fique feliz. 
+
+- Apenas uma proposição precisa ser verdadeiras (uma OU outra) para resultar num valor também verdadeiro.
 
 <br>
 
@@ -148,6 +153,8 @@ F | V
 
 - Paula está triste 😥. Portanto, o inverso lógico é: Paula está feliz 😄.
 
+- Não tem segredo, a lógica do operador NÃO é: o que for verdadeiro fica falso e o que for falso fica verdadeiro. É uma inversão lógica.
+
 <br>
 
 ### 🏋️‍♂️ **Exercício Prático - Operações Lógicas :**
@@ -166,10 +173,10 @@ inicio
   a <- 2
   b <- 3
   c <- 5
-  EscrevaL ((a = b) ou (a >= 2))     // verdadeiro
-  EscrevaL ((b <> 3) ou (a > b))     // falso
   EscrevaL ((c >= a+b) e (c < b^2))  // verdadeiro
   EscrevaL ((c <> a) e (a > c))      // falso
+  EscrevaL ((a = b) ou (a >= 2))     // verdadeiro
+  EscrevaL ((b <> 3) ou (a > b))     // falso
   EscrevaL (nao(c = 0))              // verdadeiro
   EscrevaL (nao(c = 5))              // falso
   
@@ -207,24 +214,29 @@ qual o tipo do triângulo (isósceles, equilátero ou escaleno).
 algoritmo "Triângulos"
 
 var
-  L1, L2, L3: Real
-  IS, EQ, ES, TRI: Logico
+  lado1, lado2, lado3: Real
+  isosceles, equilatero, escaleno, triangulo: Logico
    
 inicio
   Escreva("Digite o primeiro lado: ")
-  Leia(L1)
+  Leia(lado1)
   Escreva("DIgite o segundo lado: ")
-  Leia(L2)
+  Leia(lado2)
   Escreva("Digite o terceiro lado: ")
-  Leia(L3)
-  TRI <- (L1 < L2 + L3) e (L2 < L3 + L1) e (L3 < L1 + L2)
-  EQ <- (L1 = L2) e (L2 = L3)
-  ES <- (L1 <> L2) e (L2 <> L3) e (L1 <> L3)
-  IS <- ((L1 = L2) e (L1 <> L3)) ou ((L1 = L3) e (L1 <> L2)) 
-  Escreval("Pode formar um TRIÂNGULO?", TRI)
-  Escreval("O triangulo é EQUILÁTERO? ", EQ)
-  Escreval("O triangulo é ESCALENO?", ES)
-  Escreval("O triangulo é ISÓSCELES?", IS)
+  Leia(lado3)
+
+  triangulo <- (lado1 < lado2 + lado3) e (lado2 < lado3 + lado1) e (lado3 < lado1 + lado2)
+  equilatero <- (lado1 = lado2) e (lado2 = lado3)
+  escaleno <- (lado1 <> lado2) e (lado2 <> lado3) e (lado1 <> lado3)
+  isosceles <- ((lado1 = lado2) e (lado1 <> lado3)) ou ((lado1 = lado3) e (lado1 <> lado2)) 
+
+  EscrevaL()
+  Escreval("Pode formar um TRIÂNGULO?", triangulo)
+
+  EscrevaL()
+  Escreval("O triangulo é EQUILÁTERO? ", equilatero)
+  Escreval("O triangulo é ESCALENO?", escaleno)
+  Escreval("O triangulo é ISÓSCELES?", isosceles)
   
 fimalgoritmo
 ````
