@@ -6,12 +6,12 @@
 
 <br>
 
-> 🖖 Essas anotações foram feitas a partir das aulas do professor Gustavo Guanabara. <br>
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
 > 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
 
-> Nessa aula, a gente começa a se perguntar "e se acontecer tal coisa..."
+> Nessa aula, a gente começa a se perguntar **"e se acontecer tal coisa..."**
 
 <br>
 
@@ -90,7 +90,7 @@ fimalgoritmo
 
 - Assim como a condicional simples, a estrutura condicional composta também gira em torno de **uma única condição**. 
 
-- Entretanto, a composta possui dois caminhos: se a condição for verdadeira, execute bloco x, senão, 
+- Entretanto, a composta possui **dois caminhos**: se a condição for verdadeira, execute o bloco x, senão, 
 execute o bloco y.
 
 <br>
@@ -183,11 +183,11 @@ inicio
   
   IMC <- massa/(altura^2)
   
-  Escreval("IMC: ", IMC:5:2)
+  Escreval("IMC: ", IMC:5:2)   // IMC:5:2 é uma formatação do valor da variável IMC. Significa que eu quero um número com 5 casas decimais, sendo 2 delas depois da vírugula
   Se (IMC >= 18.5) e (IMC < 25) entao
      Escreva("Parabéns! Você está no seu peso ideal.")
   senao
-       Escreva("Você não está na faixa de peso idela")
+       Escreva("Você não está na faixa de peso ideal")
   FimSe
   
 fimalgoritmo
@@ -200,9 +200,9 @@ fimalgoritmo
 <br>
 
 - Faça um programa para o Departamento de Trânsito que solicite e leia o ano atual e 
-o ano de nascimento do usuário, calcule a idade dele e, se ele tiver 18 ou mais anos
-idade, informe que ele está apto a tirar carteira, senão, exiba que ele não está apto 
-a tirar a carteira.
+o ano de nascimento do usuário, calcule a idade dele e, se ele tiver 18 anos ou mais
+idade, informe que ele está apto para tirar a carteira, se não, exiba que ele inapto
+para tirar a carteira.
 
 ````
 algoritmo "Esta Apto a Dirigir?"
@@ -223,9 +223,9 @@ inicio
   idade <- anoAtual - anoNasc
   Escreval("IDADE: ", idade)
   Se (idade >= 18) entao
-     Escreval("APTO A TIRAR CARTEIRA")
+     Escreval("APTO PARA TIRAR A CARTEIRA")
   senao
-       Escreval("INAPTO A TIRAR CARTEIRA")
+       Escreval("INAPTO PARA TIRAR A CARTEIRA")
   FimSe
   Escreva("--------------------------")
   
@@ -240,7 +240,7 @@ fimalgoritmo
 
 - Desenvolva uma aplicação para a Escola Javali Cansado que solicite e leia 2 notas,
 calcule a média, e, se a média for maior ou igual a 7, informe que o aluno(a) foi
-aprovado, senão, informe que foi reprovado.
+aprovado, se não, informe que foi reprovado.
 
 ````
 algoritmo "Aluno aprovado ou reprovado?"
@@ -256,14 +256,14 @@ inicio
   Leia(nota1)
   Escreva("Segunda Nota: ")
   Leia(nota2)
-  
+
   Escreval("-----------------------")
   media <- (nota1+nota2)/2
   Escreval("MÉDIA: ", media:2:1)
   Se (media >= 7) entao
-     Escreval("ALUNO(A) APROVADO")
+    Escreval("ALUNO(A) APROVADO")
   senao
-       Escreval("ALUNO(A) REPROVADO")
+    Escreval("ALUNO(A) REPROVADO")
   FimSe
   Escreva("------------------------")
       
