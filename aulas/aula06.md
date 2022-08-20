@@ -6,12 +6,12 @@
 
 <br>
 
-> 🖖 Essas anotações foram feitas a partir das aulas do professor Gustavo Guanabara. <br>
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
 > 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
 
-> Nessa aula, através das linhas de código, desenvolveremos programas para ajudar uma moça muito bacana, a Creuza 👩‍🦱
+> Nessa aula, através das **linhas de código**, desenvolveremos programas para ajudar uma moça muito bacana, a **Creuza** 👩‍🦱
 
 <br>
 
@@ -41,7 +41,7 @@ fimalgoritmo
 
 <br>
 
-## 💵 **Problema 02 - Creuza vai viajar e prcisa comprar dólares :**
+## 💵 **Problema 02 - Creuza vai viajar e precisa comprar dólares :**
 
 - Agora que Creuza completou ano, ela quer presentear-se com uma viagem para os Estados Unidos.
 Além da passagem, ela precisa comprar dólares. Ele tem uma certa quantidade de dinheiro em reias
@@ -137,13 +137,14 @@ inicio
    Leia(emprestimo)
    Escreva("Quantas parcelas? ")
    Leia(parcelas)
-    valorFinal <- (emprestimo*120)/100
-    valorParcela <- valorFinal/parcelas
+   
+   valorFinal <- (emprestimo*120)/100
+   valorParcela <- valorFinal/parcelas
+   
    EscrevaL("-> Você irá pagar ", parcelas, " de R$", valorParcela)
    EscrevaL("-> O valor final a se pagar será de R$", valorFinal)
       
 fimalgoritmo
-
 ````
 
 <br><br>
