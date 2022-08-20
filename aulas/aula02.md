@@ -68,11 +68,11 @@ fimalgoritmo
 
 <br>
 
-## 📤 **Comandos de Saída de Dados (Output)**
+## 📤 **Comandos de Saída de Dados (Outputs)**
 
 - São comandos que, quando executados, **mostrarão algo na tela**.
 
-- São responsáveis pela saída de dados.
+- São responsáveis pela **saída de dados**.
 
 
 
