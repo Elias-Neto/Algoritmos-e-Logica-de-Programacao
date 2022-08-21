@@ -1,5 +1,7 @@
 # 🔁 Aula 09 - Estruturas de Repetição (Parte 01)
 
+<br>
+
 > Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
 
 <br>
