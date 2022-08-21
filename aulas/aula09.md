@@ -45,7 +45,7 @@ FimEnquanto
 liberado
 ````
 
-- Nesse exemplo, enquanto a expressão "não arumar quarto" for verdadeira, o bloco de código será executado (ou seja, haverá um **loop**, uma **repetição**). Isso ocorrerá até enquanto a expressão for verdadeira, nesse caso, o loop irá parar e a linha abaixo será executada (ou seja, a pessoa será liberada do castigo).
+- Nesse exemplo, enquanto a expressão "não arumar quarto" for verdadeira, o bloco de código "castigo" será executado (ou seja, haverá um **loop**, uma **repetição**). Isso ocorrerá enquanto a expressão for verdadeira, até ela se tornar falsa. Quando ela for falsa, o loop irá parar e a linha abaixo será executada (ou seja, a pessoa será liberada do castigo).
 
 <br>
 
