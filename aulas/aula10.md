@@ -1,18 +1,29 @@
 # 🔁 Aula 10 - Estruturas de Repetição (Parte 02)
 
-> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
+<br>
+
+> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
 
 <br>
 
-## **Estrutura de Repetição "Repita"**
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
+> 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
-- gira em torno de uma condição
-- *o teste lógico é feito no **fim** da estrutura*
-- é utilizado quando não se sabe quantas vezes vai repetir o loop
+<br>
 
-Sintaxe da Estrutura:
+## **Estrutura de Repetição - "Repita"**
 
-- repita tal coisa até que tal condição seja verdadeira
+- É uma estrutura que gira em torno de **uma condição**.
+
+- Diferentemente da estrutura "Enquanto", nessa *o teste lógico é feito no **fim** da estrutura* e não no início.
+
+- Por esse motivo, a estrutura REPITA é utilizada quando não se sabe quantas vezes vai repetir o loop
+
+<br>
+
+### Sintaxe da Estrutura:
+
+- repita ***tal coisa*** até que ***tal condição*** seja verdadeira
 
 ````
 Repita
@@ -22,69 +33,106 @@ Ate (expressão)
 
 Exemplo:
 
-- Está de castigo até arrumar seu quarto
+- Você está de castigo até arrumar seu quarto.
 
 ````
 Repita
   castigo
 Ate (arrumar quarto)
-liberado
+liberada
 ````
+
+- Nesse exemplo, o bloco de código "castigo" será executado até que a expressão "arrumar quarto" seja falsa (ou seja, haverá um **loop**, uma **repetição**).
+Quando a expressão "arrumar quarto" for falsa, o loop irá parar e a linha abaixo será executada (ou seja, a pessoa será liberada do castigo).
 
 <br>
 
-### ***Enquanto x Repita***
+## ***Enquanto x Repita***
 
-- No "Enquanto" o teste lógico é feito no início, no "Repita" é feito no final.
-   
-   - Quando não se sabe quantas vezes vai repetir o loop, utiliza o repita
+- É importante entendermos a relação entre essas duas estruturas.
 
-   - Quando se sabe quantas vezes vai repetir o loop, utiliza o enquanto
+- Lembra que ambas giram em torno de **uma condição**? Pois bem...
 
-- O uso da expressão lógica (a condição) de uma é o inverso do da outra:
-  
-  - No "enquanto" foi utilizado: **não arrumar o quarto**
-  
-  - No "repita" foi utilizado: **arrumar o quarto**
+- A diferença entre elas está justamente nesse fato, *uma é o **complemento lógico** da outra*, perceba:
 
-- É uma relação inclusive de construção frasal:
+  - "**_ENQUANTO_ não arrumar seu quarto** você vai ficar de castigo."
+
+  - "Você vai ficar de castigo **_ATÉ_ arrumar seu quarto**."
+
+- E por que isso é importante? Bem, lembra que "girar em torno de uma condição" significa que a estrutura possui um **Teste Lógico**? Olha que interessante:
+
+  - Na frase que utiliza o ***"Enquanto"***, a condição "não arrumar seu quarto" é verificada no início (ou seja, o **Teste Lógico é feito no início**).
+
+  - Já na frase que utiliza o ***"Repita"***, a condição "arrumar seu quarto" é verificada no fim (ou seja, o **Teste Lógico é feito no fim**).
+
+- Essa é a principal diferença entre essas estruturas de repetição, as suas **Sintaxes Lógicas** (suas Construções Lógicas):
+
+```` 
+✅ Teste Lógico Feito no INÍCIO                 ✅ Teste Lógico Feito no FIM
+
+Enquanto (não arrumar quarto) faça               Repita
+  castigo                                          castigo
+FimEnquanto                                      Ate (arrumar quarto)
+liberada                                         liberada
+````
+
+- Por isso que:
   
-  - "Você vai ficar de **castigo** enquanto **não arrumar o quarto**
-  
-  - "Você vai ficar de **castigo** até **arrumar seu quarto**
+  - A estrutura de repetição **ENQUANTO** é utilizada quando se **sabe quantas repetições ocorrerão**. 
+
+  - A estrutura de repetição **REPITA** é utilizada quando **não se sabe quantas repetições ocorrerão**.
+
 
 <br>
 
 ### 🏋️‍♂️ **Exercício Prático - Contar de 1 Até 10 :**
 
-- Crie um algoritmo que conte de 1 até 10
+<br>
+
+- Crie um algoritmo que conte de 1 até 10.
 
 ````
-algoritmo "contar de 1 até 10"
+algoritmo "Contar de 1 Até 10"
+
 var
   contador: Inteiro
+
 inicio
   Repita
     contador <- contador + 1
     Escreval(contador)
   Ate (contador = 10)
+
 fimalgoritmo
 ````
 
-- **adiconal:** exibir a tabuada de um número qualquer
+<br>
+
+### 🏋️‍♂️ **Exercício Prático - Gerador de Tabuada :**
+
+<br>
+
+- Desenvolva um algoritmo que leia um número, calcule e exiba a tabuada desse número.
 
 ````
-algoritmo "tabuada"
+algoritmo "Gerador de Tabuada"
+
 var
   contador, numero, resultado: Inteiro
+  
 inicio
+  EscrevaL(" GERADOR DE TABUADA  ")
+  EscrevaL("---------------------")
   Escreva("Quer ver a tabuada de qual número? ")
   Leia(numero)
+  EscrevaL()
+  
   Repita
     contador <- contador + 1
     resultado <- numero * contador
     Escreval(numero, " x ", contador, " = ", resultado)
   Ate (contador = 10)
+  
 fimalgoritmo
 ````
 
@@ -92,29 +140,38 @@ fimalgoritmo
 
 ### 🏋️‍♂️ **Exercício Prático - Quantos Números São Negativos :**
 
-- Crie um algoritmo que leia cinco números e, no final, mostre quantos são negativos
+<br>
+
+- Crie um algoritmo que leia cinco números e, no final, mostre quantos são negativos.
 
 ````
-algoritmo "quantos numeros sao negativos"
+algoritmo "Quantos Números São Negativos"
+
 var
   numero, contador, totalNegativos: Inteiro
+  
 inicio
   contador <- 1
+  
   Repita
-    Escreva("Digite um nùmero: ")
+    Escreva("Digite um número: ")
     Leia(numero)
-    contador <- contador + 1
     Se (numero < 0) entao
       totalNegativos <- totalNegativos + 1
     FimSe
+    contador <- contador + 1
   Ate (contador > 5)
-  Escreval("Foram digitado ", totalNegativos, " valores negativos")
+  
+  Escreval("Foram digitado ", totalNegativos, " números negativos")
+  
 fimalgoritmo
 ````
 
 <br>
 
 ### 🏋️‍♂️ **Exercício Prático - Fatorial de Um Número :**
+
+<br>
 
 - Desenvolva um programa que leia um número, calcule e exiba o faturial desse número.
 
@@ -123,43 +180,53 @@ fimalgoritmo
   - 5! = 5 x 4 x 3 x 2 x 1 = 120
 
 ````
-algoritmo "fatorial de um numero"
+algoritmo "Fatorial de Um Número"
+
 var
-  contador, numero, fatorial: Inteiro
+  numero, fatorial: Inteiro
+  
 inicio
   Escreva("Digite um nùmero: ")
   Leia(numero)
-  contador <- numero
+  
   fatorial <- 1
   Repita
-    fatorial <- fatorial * contador
-    contador <- contador - 1
-  Ate (contador < 1)
+    fatorial <- fatorial * numero
+    numero <- numero - 1
+  Ate (numero < 1)
+  
   Escreval("O valor do fatorial de ", numero, " é igual a ", fatorial)
+  
 fimalgoritmo
 ````
 
-- **adicional:** fazer acontecer várias vezes
+- **ADICIONAL**: Permitir que o usuário peço o fatorial de um número quantas vezes ele quiser.
 
 ````
-algoritmo "fatorial de um numero"
+algoritmo "Fatorial de Um Número"
+
 var
- contador, numero, fatorial: Inteiro
+ numero, fatorial: Inteiro
  resposta: Caractere
+ 
 inicio
    Repita
       Escreva("Digite um número: ")
       Leia(numero)
-      contador <- numero
+      
       fatorial <- 1
+      
       Repita
          fatorial <- fatorial * contador
-         contador <- contador - 1
-      Ate (contador = 1)
+         numero <- numero - 1
+      Ate (numero = 1)
+      
       Escreval("O valor do fatorial de ", numero, " é igual a ", fatorial)
+      
       Escreva("Quer continuar? [S/N] ")
       Leia(resposta)
    Ate (resposta = "N")
+   
 fimalgoritmo
 ````
 
@@ -167,31 +234,38 @@ fimalgoritmo
 
 ### 🏋️‍♂️ **Exercício Prático - É Um Número Primo? :**
 
-- Desenvolvaa um algoritmo que lei um número, detecte e informe se esse número
-é ou não primo
+<br>
 
-- Número Primo, quer dizer que da contagem de um até o número, ele só tem dois 
-divisores (um e ele mesmo)
+- Desenvolva um algoritmo que leia um número, detecte e informe se esse número
+é ou não primo.
+
+- Ser um Número Primo, significa que da contagem de um até o número, ele só tem dois 
+divisores (um e ele mesmo).
 
 ````
-algoritmo "é um numero primo?"
+algoritmo "É Um Número Primo?"
+
 var
   numero, contador, primo, divisivel: Inteiro
+  
 inicio
   contador <- 1
   Escreva("Digite um número: ")
   Leia(numero)
+  
   Repita
     Se (numero % contador = 0) entao
       divisivel <- divisivel + 1
     FimSe
     contador <- contador + 1
   Ate (contador > numero)
+  
   Se (divisivel > 2) entao
     Escreval(" O número ", numero, " não é primo! ")
   senao
     Escreval(" O número ", numero, " é primo! ")
   FimSe
+  
 fimalgoritmo
 ````
 
@@ -199,30 +273,26 @@ fimalgoritmo
 
 ### 🏋️‍♂️ **Exercício Prático - Super Contador :**
 
-- Faça uma aplicação que dê ao usuário tês opções: 
+<br>
+
+- Faça uma aplicação que dê ao usuário três opções de contagem: 
   
-  1. De 1 até 10 
+  - De 1 até 10 (Caso for escolhida, calcule e exiba a contagem).
 
-  2. De 10 até 1 
+  - De 10 até 1 (Caso for escolhida, calcule e exiba a contagem).
 
-  3. Sair
-
-- caso ele escolha a primeira opção, o programa irá calcular e exebir uma contagem
-de 1 até 10
-
-- caso ele escolha a segunda opção, o programa irá calcular e exebir uma contagem
-de 10 até 1
-
-- caso ele escolha a terceira opção, o programa irá ser finalziado
+  - Sair (Caso for escolhida, finalize a aplicação).
 
 ````
-algoritmo "super contador"
+algoritmo "Super Contador"
+
 var
   contagem, contador: Inteiro
+  
 inicio
   Repita
-    Escreval("")
-    Escreval("")
+    Escreval()
+    Escreval()
     Escreval("=================")
     Escreval("     M E N U     ")
     Escreval("=================")
@@ -231,6 +301,7 @@ inicio
     Escreval(" [3] Sair ")
     Escreval("=================")
     Leia(contagem)
+    
     Escolha (contagem)
       Caso 1
         contador <- 1
@@ -250,6 +321,7 @@ inicio
         Escreval("INVÁLIDO.")
     FimEscolha
   Ate (contagem = 3)
+  
 fimalgoritmo
 ````
 
@@ -257,19 +329,25 @@ fimalgoritmo
 
 ### 🏋️‍♂️ **Exercício Prático - Escolhendo Pessoas :**
 
-- Faça um programa que leia o sexo, a idade e a cor de cabelo do usuário,
-detcte e informe a quantidade de:
+<br>
 
-- homens, com mais de 18 anos e cabelos castanhos
-- mulheres, entre 25 e 30 anos e cabelos loiros
+- Faça um programa que leia o sexo, a idade e a cor de cabelo do usuário.
 
-- esse programa deve se repetir quantas vezes o usuário quiser
+- O programa deve detctar e informar a quantidade de:
+
+  - Homens, com mais de 18 anos e cabelos castanhos.
+  
+  - Mulheres, entre 25 e 30 anos e cabelos loiros.
+
+- Esse programa deve se repetir quantas vezes o usuário quiser
 
 ````
-algoritmo "EXERCÍCIO 02 - ESCOLHENDO PESSOAS"
+algoritmo "Escolhendo Pessoas"
+
 var
   sexo, resposta, cabelo: Caractere
   idade, tipo, quantM, quantF: Inteiro
+  
 inicio
   Repita
     LimpaTela
@@ -297,24 +375,29 @@ inicio
       Caso 4
         cabelo <- "Ruivo"
     FimEscolha
+    
     Se (sexo = "M") e (idade >= 18) e (cabelo = "Castanho") entao
       quantM <- quantM + 1
     FimSe
+    
     Se (sexo = "F") e (idade >= 25) e (idade <= 30) e (cabelo= "Loiro") entao
       quantF <- quantF + 1
     FimSe
+    
     Escreva("Quer continuar? [S/N] ")
     Leia(resposta)
   Ate (resposta = "N")
+  
   LimpaTela
   Escreval("--------------------")
   Escreval("  RESULTADO  FINAL  ")
   Escreval("--------------------")
   Escreval("Total de homens com mais de 18 anos e com cabelos castanhos é ", quantM)
   Escreval("Total de mulheres entre 25 e 30 anos e com cabelos loiros é ", quantF)
+  
 fimalgoritmo
 ````
 
-<br>
+<br><br>
 
 <p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
