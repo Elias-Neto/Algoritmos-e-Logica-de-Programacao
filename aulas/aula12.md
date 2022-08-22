@@ -1,6 +1,6 @@
 # 🛠 Aula 12 - Procedimentos
 
-br>
+<br>
 
 > Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
 
