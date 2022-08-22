@@ -1,47 +1,54 @@
 # 🛠 Aula 13 - Funções
 
-> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
+<br>
+
+> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
 
 <br>
 
-## **Rotina (Parte 02) - Funções**
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
+> 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
 
-**Relembrando**
+## **O que são Funções?**
 
-- rotina é um procedimento repetitivo
+- De maneira pragmática, funções são procedimentos que, ao final da estrutura, **retornam um valor**.
 
-- rotinas são utéis para evitarmos repetição de código
+- Portanto, os conceitos que valem para os procedimentos também são válidos para as funções:
+
+  - Ambos são **blocos de código** que se **repetem** com certa frequência, por isso são importantíssimos para a construção de um **código limpo**.
+
+  - Possuem sintaxes bem semelhantes:
+
+  ````
+  Funcao nomeDaFuncao(): tipoDaFuncao           Procedimento nomeDoProcedimento()
+  inicio                                        Inicio
+    Bloco                                         Bloco
+    Retorne()                                   FimProcedimento
+  FimFuncao
+  ````
+
+  - Ambos podem utilizar as passagens de parâmetros (tanto por valor como por referência). 
+
+  - Por esses motivos giram em torno dos mesmo conceitos: Escopo, Argumentos, Parâmetros, etc...
 
 <br>
 
-**Procedimento x Função**
+**Procedimento x Função - Quais são as diferenças?**
 
-- Nos ***Procedimentos*** não se retorna um valor, neles ocorre simplesmente a execução de
-um bloco de código
+- Como foi dito no início: "funções são procedimentos que, ao final da estrutura, **retornam um valor**.".
 
-- Nas ***Funções*** se retorna um valor, nelas um bloco de código é executado mas o objetivo
-é retornar um valor ao final da função.
+- Nos ***Procedimentos*** não retorna-se um valor, neles ocorre simplesmente a execução de um bloco de código
 
-<br>
-
-**Sintaxe da Estrutura**
-
-````
-Funcao nomeDaFuncao(): tipoDaFuncao
-inicio
-  Bloco
-  Retorne()
-FimFuncao
-````
+- Já nas ***Funções*** retorna-se um valor, nelas um bloco de código é executado mas o objetivo é retornar um valor ao final da função.
 
 <br>
 
 **Exemplo - Somar Dois Números (Procedimento x Função) :**
 
 ````
-algoritmo "somar dois números com PROCEDIMENTO"
+algoritmo "Somar Dois Números (utilizando PROCEDIMENTO)"
 
 var
   numero1, numero2: Inteiro
@@ -56,18 +63,21 @@ inicio
   Leia(numero1)
   Escreva("Digite o segundo valor: ")
   Leia(numero2)
+  
   Soma(numero1, numero2)
 
 fimalgoritmo
 ````
 
 ````
-algoritmo "somar dois números com FUNÇÃO"
+algoritmo "Somar Dois Números (utilizando FUNÇÃO)"
 
 var
   numero1, numero2, soma: Inteiro
   
-  Funcao Soma(A, B: Inteiro): Inteiro
+  // Ao declarar uma função, é necessário definir o tipo de dado que ela irá retornar
+  
+  Funcao Soma(A, B: Inteiro): Inteiro 
   Inicio
     Retorne(A+B)
   FimFuncao
@@ -77,46 +87,27 @@ inicio
   Leia(numero1)
   Escreva("Digite o segundo valor: ")
   Leia(numero2)
+  
   soma <- Soma(numero1, numero2)
+  
   Escreval("A soma entre ", numero1, " e ", numero2, " é igual a ", soma)
 
 fimalgoritmo
 ````
 
-## **Passagem de Parâmetro**
-
-- Assim como nos procedimentos, em funções você tamném pode utilizar parâmetros.
-
-- O funcionamento e o tipo de passagens de parâmetros dos procedimentos é o mesmo para as funções.
-
-<br>
-
-**Relembrando**
-
-- Parâmetros são variáveis que estão recebem alguma coisa como referência.
-
-<br>
-
-## **Passagem de Parâmetro Por Valor**
-
-<br>
-
-**Relembrando**
-
-- É um tipo de passagem na qual os parâmetros do procedimento recebem valores como referência
-
-- OBS❕ Não use o mesmo nome da variável referência no parâmetro.
-
 <br>
 
 ### 🏋️‍♂️ **Exercício Prático - Verificador Par/Ímpar :**
+
+<br>
 
 - Desenvolva um algoritmo que leia um número, verifique e informe se ele é par ou ímpar.
 
 - Utilize uma função para realizar essa verificação.
 
 ````
-algoritmo "VERIFICADOR PAR/ÍMPAR"
+algoritmo "Verificador Par/Ímpar"
+
 var
   numero: Inteiro
   retorno: Caractere
@@ -133,8 +124,11 @@ FimFuncao
 inicio
   Escreva("Digite um número: ")
   Leia(numero)
+  
   retorno <- ParOuImpar(numero)
+  
   EscrevaL("O número ", numero, " é um valor ", retorno)
+  
 fimalgoritmo
 ````
 
@@ -142,12 +136,15 @@ fimalgoritmo
 
 ### 🏋️‍♂️ **Exercício Prático - Fatorial de Um Número :**
 
+<br>
+
 - Crie um algoritmo que leia um número, calcule e informe o fatorial desse número.
 
 - Utilize uma função para realizar essa cálculo.
 
 ````
-algoritmo "FATORIAL DE UM NÚMERO"
+algoritmo "Fatorial de Um Número"
+
 var
   numero, F: Inteiro
 
@@ -155,77 +152,78 @@ Funcao Fatorial(N:Inteiro): Inteiro
 var
   contador, resultado: Inteiro
 Inicio
-  Resultado <- 1
-  Para Contador <- 1 ate N faca
-    resultado <- resultado * Contador
+  resultado <- 1
+  
+  Para contador <- 1 ate N faca
+    resultado <- resultado * contador
   FimPara
+  
   Retorne resultado
 FimFuncao
 
 inicio
   Escreva("Digite um número: ")
   Leia(numero)
+  
   F <- Fatorial(numero)
+  
+  EscrevaL()
   Escreval("O valor de ", numero, "! è igual a ", F)
+  
 fimalgoritmo
 ````
 
 <br>
 
-## **Passagem de Parâmetro Por Referência**
-
-<br>
-
-**Relembrando**
-
-- Nesse tipo de passagem, os parâmetros receberão a própria variável como referência.
-
-- Podemos fazer uma analogia e dizer que os parâmetros receberão o 'endereço' da variável 
-como referência.
-
-<br>
-
 ### 🏋️‍♂️ **Exercício Prático - Sequência de Fibonacci :**
+
+<br>
 
 - Desenvolva um algoritmo que calcule e exiba na tela os 15 primeiros números da sequência de fibonacci.
 
 - Utilize uma função para realizar esse cálculo.
 
 ````
-algoritmo "SEQUÊNCIA DE FIBONACCI"
-var
-  contador, valor1, valor2, valor3: Inteiro
+algoritmo "Sequência de Fibonacci"
 
-Funcao ProximoFibonacci(var V1, V2: Inteiro):Inteiro
 var
-  V3: Inteiro
+  contador, primeiroNumero, segundoNumero, terceiroNumero: Inteiro
+
+Funcao ProximoFibonacci(var N1, N2: Inteiro):Inteiro
+var
+  N3: Inteiro
 Inicio
-  V3 <- V1 + V2
-  V1 <- V2
-  V2 <- V3
+  N3 <- N1 + N2
+  N1 <- N2
+  N2 <- N3
+
   Retorne(V3)
 FimFuncao
 
 inicio
-  Escreva(valor1)
-  valor2 <- 1
-  Escreva(valor2)
+  Escreva(primeiroNumero)
+
+  segundoNumero <- 1
+  Escreva(segundoNumero)
+
   Para contador <- 3 ate 15 faca
-    valor3 <- ProximoFibonacci(valor1, valor2)
-    Escreva(valor3)
+    terceiroNumero <- ProximoFibonacci(primeiroNumero, segundoNumero)
+    
+    Escreva(terceiroNumero)
   FimPara
+
 fimalgoritmo
 ````
 
 <br>
 
-## **Funções do Visualg - valor carctere**
+## **Funções do Visualg - Manipulação de Strings**
 
 <br>
 
  **site <- "CursoEmVideo"**
 
- <br>
+<br>
 
 Função | Retorno | O que faz?
 :--------- | :------: | -------:
@@ -240,6 +238,8 @@ Carac("67") | C | Retorna a letra específica de um código
 <br>
 
 ### 🏋️‍♂️ **Exercício Prático - Analisador de Nomes :**
+
+<br>
 
 - Desenvolva um algoritmo, utilizando as funções do visualg, que leia o nome do usuário e:
   
@@ -262,28 +262,54 @@ Carac("67") | C | Retorna a letra específica de um código
   - Monte e exiba na tela o nome do usuário ao contrário
 
 ````
-algoritmo "ANALISADOR DE NOMES"
+algoritmo "Analisador de Nomes"
+
 var
   nome: Caractere
   Contador: Inteiro
+
 inicio
+  EscrevaL(" ANLISADOR DE NOMES ")
+  EscrevaL("--------------------")
+
   Escreva("Digite seu nome: ")
   Leia(nome)
-  Escreval("Total de letras do seu nome é ", Compr(nome))
-  Escreval("Seu nome em maiúsculas ", Maiusc(nome))
-  Escreval("Seu nome em minúsculas é ", Minusc(nome))
-  Escreval("A primeira letra do seu nome é ", Copia(Maiusc(nome), 1, 1))
-  Escreval("A última letra do seu nome é ", Copia(Maiusc(nome), Compr(nome), 1))
-  Escreval("Seu nome tem a letra A na posição ", Pos("A", Maiusc(nome)))
-  Escreval("O código da letra A é ", Asc("A"))
+
+  EscrevaL()
+  Escreval("-> Total de letras do seu nome é ", Compr(nome))
+
+  EscrevaL()
+  Escreval("-> Seu nome em maiúsculas ", Maiusc(nome))
+
+  EscrevaL()
+  Escreval("-> Seu nome em minúsculas é ", Minusc(nome))
+
+  EscrevaL()
+  Escreval("-> A primeira letra do seu nome é ", Copia(Maiusc(nome), 1, 1))
+
+  EscrevaL()
+  Escreval("-> A última letra do seu nome é ", Copia(Maiusc(nome), Compr(nome), 1))
+
+  EscrevaL()
+  Escreval("-> Seu nome tem a letra A na posição ", Pos("A", Maiusc(nome)))
+
+  EscrevaL()
+  Escreval("-> O código da letra A é ", Asc("A"))
+
+  EscrevaL()
   Escreval("A letra de código 65 é ", Carac(65))
-  Escreva("Seu nome ao contrário é ")
+
+  EscrevaL()
+  Escreva("-> Seu nome ao contrário é ")
   Para Contador <- Compr(nome) ate 1 passo -1 faca
     Escreva(Copia(Maiusc(nome), Contador, 1))
   FimPara
+
+  EscrevaL()
+
 fimalgoritmo
 ````
 
-<br>
+<br><br>
 
 <p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
