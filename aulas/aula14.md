@@ -1,14 +1,47 @@
-# 🗄 Aula 14 - Vetores (Variáveis Compostas Parte 1)
+# 🗄 Aula 14 - Vetores (Variáveis Compostas - Parte 1)
 
 <br>
 
-> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
+> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
+
+<br>
+
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
+> 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
 
 > Até o momento só utilizamos variáveis simples. A partir de agora, iremos trabalhar com **_variáveis compostas_**.
 
 <br>
+
+### Relembrando
+
+<br>
+
+- ***Variáveis*** são **espaços** na memória do computador que servem para **armazenar dados**.
+
+- **Variáveis Simples** são um variáveis que só podem armazenar um único dado.
+
+- Vamos utilizar a analogia que utilizamos no início do curso na qual consideramos a memória do computador sendo um grande "armário" e os espaços desse armário sendo as variáveis. 
+
+- Olha só o que acontece quando declaramos e atribuimos valores em variáveis simples: 
+
+<br>
+
+<div align="center">
+  <img align="center" width="500px" src="./images/vetores.gif">  
+</div>
+
+<br>
+
+- Reparou que as variáveis foram **dispostas de forma BAGUNÇADA** na memória do computador? É justamente isso que acontece com as variáveis simples, elas são alocadas conforme a necessidade do sistema operacional.
+
+<br>
+
+## **O que são Vetores?**
+
+- 
 
 - Vetores são **_Variáveis Compostas Homogêneas Unidemensionais_**
 
