@@ -46,8 +46,8 @@ o código, ou seja, a sintaxe da linguagem.
   <li><a href="./aulas/aula11.md">Aula 11 - Estruturas de Reptição (Parte 03) 🔁</a></li>
   <li><a href="./aulas/aula12.md">Aula 12 - Procedimentos 🛠</a></li>
   <li><a href="./aulas/aula13.md">Aula 13 - Funções 🛠</a></li>
-  <li><a href="./aulas/aula14.md">Aula 14 - Vetores 🎲</a></li>
-  <li><a href="./aulas/aula15.md">Aula 15 - Matrizes 🎲</a></li>
+  <li><a href="./aulas/aula14.md">Aula 14 - Vetores 🗄</a></li>
+  <li><a href="./aulas/aula15.md">Aula 15 - Matrizes 🗄🗄</a></li>
 </ul>
 
 <br><br>

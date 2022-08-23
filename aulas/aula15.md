@@ -1,14 +1,46 @@
-# 🗄🗄 Aula 15 - Matrizes (Variáveis Compostas Parte 2)
+# 🗄🗄 Aula 15 - Matrizes (Variáveis Compostas - Parte 2)
 
 <br>
 
-> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver e executar os algoritmos em **Portugol**.
+> Lembrando: Durante todo este curso, será utilizado o **visualg** (visualizador de algoritmos) para poder desenvolver algoritmos em **Portugol**.
 
 <br>
 
-## **Matrizes - Variáveis Compostas Homogêneas Multidimensionais**
+> 🖖 Essas anotações foram feitas a partir das aulas do professor **Gustavo Guanabara**. <br>
+> 👉 Link para acessar as vídeo-aulas e os materiais do curso: https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 
 <br>
+
+## **O que são Matrizes?**
+
+- Matrizes, antes de qualquer coisa, são **variáveis** (ou seja, servem para armazenar dados na memória do computador). Porém,  assim como os vetores, não são variáveis simples mas sim **variáveis compostas** (ou seja, são formadas por mais de um espaço na memória do computador).
+
+- O funcionamento das matrizes possui pontos semelhantes ao dos vetores, contudo, o diferencial das matrizes é: a capacidade delas de possuirem **mais de uma dimensão**. 
+
+- Vamos com calma. Para entender esse conceito de mais de uma dimensão das matrizes, vamos reelembrar alguns pontos vistos sobre os vetores:
+
+<br>
+
+<div align="center">
+  <img align="center" width="500px" src="./images/vetores(1).gif">  
+</div>
+
+<br>
+
+- É importante prestarmos atenção nos seguintes pontos:
+
+   1. A forma de declaração do vetor. {nomeDaVariavel + vetor[quantidadeDeEspaçosDisponíveis] + tipoDaVariavel}
+
+   2. A forma na qual o vetor é disposto na memória do computador. {forma ordenada e sequencial em linha}
+
+   3. A forma de atribuir valores no vetor. {nomeDaVariavel[inidice]}
+
+
+- Show! Tendo isso em mente, vamos observar como é feita: a declaração, a diposição na memória do computador e a atribuição de valores numa MATRIZ.
+
+
+
+
 
 - Variáveis: pois as matrizes são espaços ("gavetas") na memória do computador ("armário") que servem para armazenar dados.
 
