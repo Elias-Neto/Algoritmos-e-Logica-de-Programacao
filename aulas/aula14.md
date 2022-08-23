@@ -21,7 +21,7 @@
 
 - ***Variáveis*** são **espaços** na memória do computador que servem para **armazenar dados**.
 
-- **Variáveis Simples** são um variáveis que só podem armazenar um único dado.
+- **Variáveis Simples** são variáveis que só podem armazenar um único dado.
 
 - Vamos utilizar a analogia que utilizamos no início do curso na qual consideramos a memória do computador sendo um grande "armário" e os espaços desse armário sendo as variáveis. 
 
@@ -37,40 +37,45 @@
 
 - Reparou que as variáveis foram **dispostas de forma BAGUNÇADA** na memória do computador? É justamente isso que acontece com as variáveis simples, elas são alocadas conforme a necessidade do sistema operacional.
 
+- Com **vetores** as coisas funcionam um pouco diferente...
+
 <br>
 
 ## **O que são Vetores?**
 
-- 
+- Vetores, nada mais são, que **variáveis** (ou seja, servem para armazenar dados na memória do computador). Porém, não são variáveis simples mas sim **variáveis compostas**.
 
-- Vetores são **_Variáveis Compostas Homogêneas Unidemensionais_**
+   - Isso quer dizer que um único vetor é composto por **mais de um espaço** na memória do computador.
 
-- Antes de estudarmos as vetores, vamos relembrar o que são as variáveis simples.
-
-<br>
-
-### **Relembrando**
+- Olha só como funciona a **declaração** de um vetor, sua **alocação** na memória do computador e sua **atribuição** de valores:
 
 <br>
 
-- vamos pensar na seguinte analogia:a memória do computador é um **armário** gigante com várias **gavetas**.
+<div align="center">
+  <img align="center" width="500px" src="./images/vetores(1).gif">  
+</div>
 
-- essas gavetas são as variáveis, elas tem o poder de guardar coisas (dados).
+<br>
 
-- cada gaveta dessa possui um adesivo com seu nome.
+- O que podemos observar:
 
-- em uma **variável simples** só é possível armazenar 1 valor (se quiser colocar outro valor, tem que tirar o primeiro)
+   - Um vetor já se diferencia de uma variável simples na **declaração**.
 
-```
-var
-    n1: inteiro
-    n2, n3, n4: inteiro
-inicio
-    n1 <- 3
-    n2 <- 5
-    n3 <- 1
-    n4 <- 0
-```
+      - A declaração de um vetor é composta por: {nomeDaVariavel + vetor[quantidadeDeEspaçosDisponíveis] + tipoDaVariavel}.
+
+   - A **alocação** de um vetor é feita de maneira **organizada** e **sequencial**, direntemente do que ocorre com as variáveis simples.
+
+   - Para **atribuir valores** num vetor também funciona de maneira um pouco diferente das variáveis simples.
+
+      - A atribuição de valor num vetor exige: {nomeDaVariavel[inidice]}
+
+      - Como já sabemos, um vetor é uma variável composta (portanto, é formado por mais de um espaço na memória do computador),
+      por esse motivo que, ao atribui valores num vetor, é necessário colocar o nome do vetor e (entre colchetes) o que chamamos de **ÍNDICE**.
+
+      - O índice serve para indicar uma **posição** específica dentro de um vetor.
+   
+   > Por fim, é notório o grande poder de um vetor: ao invés de utilizarmos 4 variáveis para armazenar 4 valores, 
+   > com os vetores, é preciso somente 1 variável para armazenar 4 valores (ou mais).
 
 <br>
 
@@ -78,66 +83,29 @@ inicio
 
 <br>
 
-| Simples                            | Composta                               |
+| Variável Simples | Variável Composta |
 | ---------------------------------- | -------------------------------------- |
-| Armazena 1 valor por vez           | Armazena valores por vez               |
-| Composta por 1 espaço na memória   | Composta por vários espaços na memória |
-| Não são alocadas de forma ordenada | São alocadas de forma ordenada         |
+| Capacidade para armezanar um único valor | Capacidade para armazenar mais de um valor |
+| Composta por um único espaço na memória | Composta por mais de um espaço na memória |
+| São alocadas de forma bagunçada | São alocadas de forma ordenada e sequencial |
 
-<br>
-
-### **Declarando Um Vetor**
-
-<br>
-
-- Exemplo: declarando um vetor n do tipo inteiro com 4 espaços
-
-```
-var
-    n: vetor[1..4] de inteiro
-```
-
-<br>
-
-**Atribuindo Um Valor Num Vetor**
-
-<br>
-
-- Para atribuir valor em um vetor você precisa indicar o nome do vetor e a posição na qual você deseja armazenar o dado (chamamos de índice).
-
-<br>
-
-```
-var
-    n: vetor[1..4] de inteiro   // declarando um vetor com nome n do tipo inteiro e com 4 espaços
-inicio
-    n[1] <- 3   // atribuindo/armazenando o valor 3, no vetor n, na posição 1 (1° espaço do vator)
-    n[2] <- 5   // atribuindo/armazenando o valor 5, no vetor n, na posição 2 (2° espaço do vetor)
-    n[3] <- 1   // atribuindo/armazenando o valor 1, no vetor n, na posição 3 (3° espaço do vetor)
-    n[4] <- 0   // atribuindo/armazenando o valor 0, no vetor n, na posição 4 (4° espaço do vetor)
-```
-
-<br>
-
-> Antes, utilizando variáveis simples, eu precisava utilizar 4 variáveis para armazenar 4 valores.
-
-> Agora, utilizando vetores, eu só preciso utilizar 1 variável para armazenar 4 valores
+- Suas declarações e atribuições  de valores são diferentes também.
 
 <br>
 
 ## **Vetores - Variáveis Compostas Homogêneas Unidimensionais**
 
-- Agora que já sabemos um pouco mais sobre os vetores, vamos retomar à definição abordada no iníco desse texto: "vetores são variáveis compostas homogêneas unidimensionais"
+- Tecnicamente falando, os vetores são chamados de um nome bem maior: Variáveis Compostas Homogêneas Unidimensionais
 
-- Vamos por partes e destrinchar o porquê dessa nome:
+- Não precisa se assustar, cada palavra desse nome tem um porquê:
 
-  - Variáveis: pois os vetores são espaços ("gavetas") na memória do computador ("armário") que servem para armazenar dados.
+  - **Variáveis**: Pois os vetores são espaços ("gavetas") na memória do computador ("armário") que servem para armazenar dados.
 
-  - Compostas: pois os vetores são variáveis compostas por mais de um espaço na memória do computador.
+  - **Compostas**: Pois os vetores são variáveis compostas por mais de um espaço na memória do computador.
 
-  - Homegêneas: pois os espaços que compõe um vetor são do mesmo tipo.
+  - **Homegêneas**: Pois os espaços que compõe um vetor armazenarão dados do mesmo tipo (lembra que vimos que, ao declarar um vetor, foi preciso informar o tipo dele e que ele foi composto por apenas um tipo de dado?).
 
-  - Unidemensionais: pois para identificar cada um dos espaços de um vetor é necessário somente um "endereço" (somente um índece).
+  - **Unidemensionais**: Pois para identificar cada um dos espaços de um vetor é necessário somente um índice (somente um "endereço" para identificar uma posição dentro do vetor).
 
 <br>
 
@@ -153,25 +121,27 @@ inicio
 algoritmo "Construindo Um Vetor"
 
 var
-    v: vetor[1..5] de inteiro
-    i: inteiro
+   v: vetor[1..5] de inteiro
+   i: inteiro
 
 inicio
-    Para i <- 1 ate 5 faca
-        Escreva("Digete o ", i, "° número: ")
-        Leia(v[i])
-    FimPara
+   Para i <- 1 ate 5 faca
+      Escreva("Digete o ", i, "° número: ")
+      Leia(v[i])
+   FimPara
 
-    Para i <- 1 ate 5 faca
-        Escreva("{", v[i], "}")
-    FimPara
+   EscrevaL()
+   Escreva("Vetor Completo: ")
+   Para i <- 1 ate 5 faca
+      Escreva("{", v[i], "}")
+   FimPara
 
 fimalgoritmo
 ```
 
 <br>
 
-### 🏋️‍♂️ **Exercício Prático - Total de Valores Par**
+### 🏋️‍♂️ **Exercício Prático - Total de Valores Pares :**
 
 <br>
 
@@ -180,29 +150,29 @@ fimalgoritmo
 <br>
 
 ```
-algoritmo "TotalPares"
+algoritmo "Total de Valores Pares"
 
 var
   n: vetor[1..7] de Inteiro
   i, totPar: Inteiro
 
 inicio
-    Para i <- 1 ate 7 faca
-        Escreva("Digite o ", i, "° número: ")
-        Leia(n[i])
-    FimPara
+   Para i <- 1 ate 7 faca
+      Escreva("Digite o ", i, "° número: ")
+      Leia(n[i])
+   FimPara
 
-    EscrevaL()
+   EscrevaL()
 
-    Para i <- 1 ate 7 faca
-        Se (n[i] % 2 = 0) entao
-            totPar <- totPar + 1
-            EscrevaL("Número ", n[i], " na ", i, "° posicao é PAR!")
-        FimSe
-    FimPara
+   Para i <- 1 ate 7 faca
+      Se (n[i] % 2 = 0) entao
+         totPar <- totPar + 1
+         EscrevaL("Número ", n[i], " na ", i, "° posicao é PAR!")
+      FimSe
+   FimPara
 
-    EscrevaL()
-    EscrevaL("Total de Números Pares Digitados: ", totPar)
+   EscrevaL()
+   EscrevaL("Total de Números Pares Digitados: ", totPar)
 
 fimalgoritmo
 ```
@@ -220,7 +190,7 @@ fimalgoritmo
 <br>
 
 ```
-algoritmo "ListagemAlunos"
+algoritmo "Litagem de Alunos Acima da Média"
 
 var
   nome: vetor[1..5] de Caractere
@@ -232,39 +202,43 @@ var
   i: Inteiro
 
 inicio
-    Para i <- 1 ate 5 faca
-        EscrevaL("--------------------")
-        EscrevaL("DADOS DO ALUNO ", i)
-        EscrevaL("--------------------")
-        Escreva("Nome: ")
-        Leia(nome[i])
-        Escreva("Nota 1: ")
-        Leia(nota1[i])
-        Escreva("Nota 2: ")
-        Leia(nota2[i])
-        media[i] <- (nota1[i] + nota2[i])/2
-        Se (media[i] >= 7) entao
-            status[i] <- "APROVADO(A)"
-        senao
-            Se ((media[i] >= 5) e (media[i] < 7)) entao
-                status[i] <- "RECUPERAÇÃO"
-            senao
-                status[i] <- "REPROVADO(A)"
-            FimSe
-        FimSe
-        somaMedias <- somaMedias + media[i]
-    FimPara
+   Para i <- 1 ate 5 faca
+      EscrevaL("--------------------")
+      EscrevaL("DADOS DO ALUNO ", i)
+      EscrevaL("--------------------")
+      Escreva("Nome: ")
+      Leia(nome[i])
+      Escreva("Nota 1: ")
+      Leia(nota1[i])
+      Escreva("Nota 2: ")
+      Leia(nota2[i])
 
-    LimpaTela
+      media[i] <- (nota1[i] + nota2[i])/2
 
-    mediaTurma <- somaMedias / 5
-    EscrevaL ("A media da turma é ", mediaTurma:4:1)
-    EscrevaL("-----------------------------------")
-    EscrevaL("         Listagem de Alunos        ")
-    EscrevaL("-----------------------------------")
-    Para i <- 1 ate 5 faca
-        EscrevaL(nome[i], "   ", media[i]:4:1, "   ", status[i])
-    FimPara
+      Se (media[i] >= 7) entao
+         status[i] <- "APROVADO(A)"
+      senao
+         Se ((media[i] >= 5) e (media[i] < 7)) entao
+               status[i] <- "RECUPERAÇÃO"
+         senao
+               status[i] <- "REPROVADO(A)"
+         FimSe
+      FimSe
+
+      somaMedias <- somaMedias + media[i]
+   FimPara
+
+   LimpaTela
+
+   mediaTurma <- somaMedias / 5
+
+   EscrevaL ("A media da turma é ", mediaTurma:4:1)
+   EscrevaL("-----------------------------------")
+   EscrevaL("         Listagem de Alunos        ")
+   EscrevaL("-----------------------------------")
+   Para i <- 1 ate 5 faca
+      EscrevaL(nome[i], "   ", media[i]:4:1, "   ", status[i])
+   FimPara
 
 fimalgoritmo
 ```
@@ -275,8 +249,7 @@ fimalgoritmo
 
 <br>
 
-- Desenvolva um Algoritmo que leia 7 nomes, coloque todos aqueles que começam com "C"
-  dentro de um vetor e depois exiba esses nomes na tela.
+- Desenvolva um Algoritmo que leia 7 nomes, coloque todos aqueles que começam com "C" dentro de um vetor e depois exiba esses nomes na tela.
 
 <br>
 
@@ -289,23 +262,23 @@ var
   c, totalComC: Inteiro
 
 inicio
-    totalComC <- 0
+   Para c <- 1 ate 7 faca
+      Escreva("Digite o ", c, "° nome: ")
+      Leia(nome)
 
-    Para c <- 1 ate 7 faca
-        Escreva("Digite o ", c, "° nome: ")
-        Leia(nome)
-        Se (copia(maiusc(nome), 1, 1) = "C") entao
-            totalComC <- totalComC + 1
-            iniciamComC[totalComC] <- nome
-        FimSe
-    FimPara
+      Se (copia(maiusc(nome), 1, 1) = "C") entao
+         totalComC <- totalComC + 1
+         iniciamComC[totalComC] <- nome
+      FimSe
+   FimPara
 
-    LimpaTela
-    EscrevaL("NOMES DIGITADOS QUE COMEÇAM COM C")
-    EscrevaL("---------------------------------")
-    Para c <- 1 ate totalComC faca
-        EscrevaL(iniciamComC[c])
-    FimPara
+   LimpaTela
+
+   EscrevaL("NOMES DIGITADOS QUE COMEÇAM COM C")
+   EscrevaL("---------------------------------")
+   Para c <- 1 ate totalComC faca
+      EscrevaL(iniciamComC[c])
+   FimPara
 
 fimalgoritmo
 ```
@@ -316,8 +289,7 @@ fimalgoritmo
 
 <br>
 
-- Crie um algoritmo que lei 7 valores e coloque esses valores em ordem. Deve permitir o
-  usuário escolher qual forma de ordanação será feita (crescente ou decrescente).
+- Crie um algoritmo que lei 7 valores e coloque esses valores em ordem. Porém, deve permitir o usuário escolher qual a forma de ordanação que será feita (crescente ou decrescente).
 
 <br>
 
@@ -325,47 +297,46 @@ fimalgoritmo
 algoritmo "Ordenação de Vetor"
 
 var
-  v: vetor[1..7] de Inteiro
-  c, ordem: Inteiro
+   v: vetor[1..7] de Inteiro
+   c, ordem: Inteiro
 
-Procedimento OrdemCrescente()
-var
-   i, j, auxiliar: Inteiro
-inicio
-   Para i <- 1 ate 6 faca
-      Para j <- i+1 ate 7 faca
-         Se (v[i] > v[j]) entao
-            auxiliar <- v[i]
-            v[i] <- v[j]
-            v[j] <- auxiliar
-         FimSe
+   Procedimento OrdemCrescente()
+   var
+      i, j, auxiliar: Inteiro
+   inicio
+      Para i <- 1 ate 6 faca
+         Para j <- i+1 ate 7 faca
+            Se (v[i] > v[j]) entao
+               auxiliar <- v[i]
+               v[i] <- v[j]
+               v[j] <- auxiliar
+            FimSe
+         FimPara
       FimPara
-   FimPara
-FimProcedimento
+   FimProcedimento
 
-Procedimento OrdemDecrescente()
-var
-   i, j, auxiliar: Inteiro
-inicio
-   Para i <- 1 ate 6 faca
-      Para j <- i+1 ate 7 faca
-         Se (v[i] < v[j]) entao
-            auxiliar <- v[i]
-            v[i] <- v[j]
-            v[j] <- auxiliar
-         FimSe
+   Procedimento OrdemDecrescente()
+   var
+      i, j, auxiliar: Inteiro
+   inicio
+      Para i <- 1 ate 6 faca
+         Para j <- i+1 ate 7 faca
+            Se (v[i] < v[j]) entao
+               auxiliar <- v[i]
+               v[i] <- v[j]
+               v[j] <- auxiliar
+            FimSe
+         FimPara
       FimPara
-   FimPara
-FimProcedimento
+   FimProcedimento
 
 inicio
     EscrevaL(" ORDENANDO UM VETOR ")
     EscrevaL("====================")
 
-
     Para c <- 1 ate 7 faca
-        Escreva("Digite o ", c, "° valor: ")
-        Leia(v[c])
+      Escreva("Digite o ", c, "° valor: ")
+      Leia(v[c])
     FimPara
 
     EscrevaL()
@@ -374,10 +345,10 @@ inicio
     EscrevaL("[2] Ordem Decrescente")
     Leia(ordem)
     Escolha ordem
-        Caso 1
-            OrdemCrescente()
-        Caso 2
-            OrdemDecrescente()
+      Caso 1
+         OrdemCrescente()
+      Caso 2
+         OrdemDecrescente()
     FimEscolha
 
 
@@ -385,7 +356,7 @@ inicio
     EscrevaL("-------------------------------")
     Escreva("Vetor Ordenado: ")
     Para c <- 1 ate 7 faca
-        Escreva (v[c], " ")
+      Escreva (v[c], " ")
     FimPara
     EscrevaL()
     EscrevaL("-------------------------------")
@@ -399,8 +370,7 @@ fimalgoritmo
 
 <br>
 
-- Desenvolva um algoritmo que leia o nome de 3 times de futebol e crie uma tabela
-  com todas as combinações de partidas possíveis entre os três times.
+- Desenvolva um algoritmo que leia o nome de 3 times de futebol e crie uma tabela com todas as combinações de partidas possíveis entre os três times.
 
 <br>
 
@@ -421,6 +391,7 @@ inicio
    FimPara
 
    LimpaTela
+
    EscrevaL("-------------------")
    EscrevaL(" TABELA DE PARTIDAS")
    EscrevaL("-------------------")
@@ -441,8 +412,7 @@ fimalgoritmo
 
 <br>
 
-- Crie um algoritmo que permita o usuário cadastrar o gabarito de uma prova com
-  5 questões, o nome e as respostas de 3 alunos; Calcule a nota final de cada aluno,
+- Crie um algoritmo que permita o usuário cadastrar o gabarito de uma prova com 5 questões, o nome e as respostas de 3 alunos; Calcule a nota final de cada aluno,
   a média da turma e exiba os resultados.
 
 <br>
@@ -451,8 +421,8 @@ fimalgoritmo
 algoritmo "Corrigindo Provas"
 
 var
-   gabarito: vetor[1..5] de Caractere
-   prova: vetor[1..5] de Caractere
+   gabaritoProva: vetor[1..5] de Caractere
+   gabaritoAluno: vetor[1..5] de Caractere
    nome: vetor[1..3] de Caractere
    nota: vetor[1..3] de Real
    i: Inteiro
@@ -466,7 +436,7 @@ inicio
    EscrevaL("-------------------------------")
    Para c <- 1 ate 5 faca
       Escreva("Questao ", c, ": ")
-      Leia(gabarito[c])
+      Leia(gabaritoProva[c])
    FimPara
 FimProcedimento
 
@@ -475,15 +445,18 @@ var
    c: Inteiro
    notaFinal: Real
 inicio
-    notaFinal <- 0
-    EscrevaL("RESPOSTAS DADAS")
-    Para c <- 1 ate 5 faca
+   EscrevaL()
+   EscrevaL("=> RESPOSTAS DADAS:")
+   EscrevaL()
+
+   Para c <- 1 ate 5 faca
       Escreva("Questao ", c, ": ")
-      Leia(prova[c])
-      Se (Maiusc(prova[c]) = Maiusc(gabarito[c])) entao
+      Leia(gabaritoAluno[c])
+      Se (Maiusc(gabaritoAluno[c]) = Maiusc(gabaritoProva[c])) entao
          notaFinal <- notaFinal + 2
       FimSe
    FimPara
+
    Retorne notaFinal
 FimFuncao
 
@@ -497,7 +470,7 @@ inicio
          EscrevaL("------------------------")
          Escreva("Nome: ")
          Leia(nome[i])
-         nota[a] <- CadastraProva()
+         nota[i] <- CadastraProva()
          soma <- soma + nota[i]
     FimPara
 
@@ -505,7 +478,7 @@ inicio
     EscrevaL("NOTAS FINAIS ")
     EscrevaL("-----------------------------")
     Para i <- 1 ate 3 faca
-       EscrevaL(nome[i]:10, nota[i]:4:1)
+      EscrevaL(nome[i]:10, nota[i]:4:1)
     FimPara
     media <- soma / 3
     EscrevaL("-----------------------------")
@@ -519,10 +492,8 @@ fimalgoritmo
 
 <br>
 
-- Desenvolva um algoritmo que exiba uma fileira de cinema com 10 lugares, permita
-o usuário escolher quantas cadeiras ele quiser. Ao usuário escolher uma cadeira, 
-o programa deve exbir a cadeira como ocupada e, se o usuário escolher uma cadeira ocupada,
-deve alertar que aquele lugar já foi reservado.
+- Desenvolva um algoritmo que exiba uma fileira de cinema com 10 lugares e permita o usuário escolher quantas cadeiras quiser. Ao usuário escolher uma cadeira, 
+o programa deve exbir a cadeira como ocupada e, se o usuário escolher uma cadeira ocupada, deve alertar que aquele lugar já foi reservado.
 
 <br>
 
@@ -533,7 +504,7 @@ var
    B: vetor[1..10] de Caractere
    numeroDaCadeira: Inteiro
    resposta: Caractere
-   
+
 Procedimento MostraFileira()
 var i: Inteiro
 inicio
@@ -544,6 +515,7 @@ inicio
          Escreva ("[ --- ]")
       FimSe
    FimPara
+
    EscrevaL()
    EscrevaL("------------------------------------------------------------------------")
 FimProcedimento
@@ -551,15 +523,21 @@ FimProcedimento
 inicio
    Repita
       LimpaTela
+
       MostraFileira()
+
       Escreva("Reservar a cadeira: B")
       Leia(numeroDaCadeira)
-      Se (B[numeroDaCadeira]="") entao
+      EscrevaL()
+
+      Se (B[numeroDaCadeira] = "") entao
          B[numeroDaCadeira] <- "X"
          EscrevaL("Cadeira B", numeroDaCadeira, " RESERVADA!")
       Senao
          EscrevaL("ERRO: Lugar Ocupado!")
       FimSe
+
+      EscrevaL()
       Escreva("Quer reservar outro? [S/N] ")
       Leia(resposta)
    Ate (resposta = "N")
