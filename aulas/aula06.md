@@ -33,7 +33,9 @@ inicio
    Leia(anoAtual)
    Escreva("Em que ano você nasceu? ")
    Leia(anoNasc)
+   
    idade <- ano_atual - ano_nasc
+   
    Escreva("-> Você tem ", idade, " anos de idade")
       
 fimalgoritmo
@@ -59,7 +61,9 @@ var
 inicio
    Escreva("Quantos reais você tem? R$")
    Leia(reais)
+   
    dolares <- reais/5.2
+   
    Escreva("Essa quantidade de reais vale U$", dolares:2:2)
    
 fimalgoritmo
@@ -85,7 +89,9 @@ var
 inicio
    Escreva("Qual é a temperatura em Fahrenheit (°F)? ")
    Leia(F)
+   
    C <- (F-32)/1.8
+   
    Escreva("Em Celcius, essa temperatura equivale a ", C:4:1, "°C")
    
 fimalgoritmo
@@ -110,7 +116,9 @@ var
 inicio
    Escreva("Qual o valor do produto? R$")
    Leia(preco)
+   
    imposto <- (preco*60)/100
+   
    Escreva("O imposto será de R$", imposto:5:2)
    
 fimalgoritmo
