@@ -44,6 +44,7 @@ inicio
   a <- 2
   b <- 3
   c <- 5
+  
   EscrevaL(a < b)     // verdadeiro
   EscrevaL(a > b)     // falso
   EscrevaL(c >= b^a)  // falso
@@ -173,6 +174,7 @@ inicio
   a <- 2
   b <- 3
   c <- 5
+  
   EscrevaL ((c >= a+b) e (c < b^2))  // verdadeiro
   EscrevaL ((c <> a) e (a > c))      // falso
   EscrevaL ((a = b) ou (a >= 2))     // verdadeiro
