@@ -197,6 +197,7 @@ var
 inicio
   msg1 <- "Olá,"        // msg1 recebe "Olá"      - atribuindo um valor à variável msg1
   msg2 <- " Mundo!"     // msg2 recebe "Mundo!"   - atribuindo um valor à variável msg2
+  
   Escreva(msg1, msg2)   // comando de saída       - exibirá na tela os valores dentro das variáveis msg1 e msg2
 
 fimalgoritmo
