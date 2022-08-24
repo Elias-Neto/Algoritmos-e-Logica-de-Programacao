@@ -15,14 +15,13 @@
 
 - É uma estrutura que gira em torno de **uma condição**.
   
-  - Como vimos anteriormente, "girar em torno de uma condição" significa que é uma estrutura na qual haverá uma expressão lógica que, se for verdadeira, 
-  então haverá a execução de um bloco de código.
+  - Percebemos anteriormente (com as estruturas condicionais), que "girar em torno de uma condição" significa que é uma estrutura na qual haverá uma expressão lógica que, se for verdadeira, então haverá a execução de um bloco de código.
   
   - Essa verificação da expressão lógica (para conferir se ela é verdadeira ou falasa) é o que chamamos de **Teste Lógico**.
 
 - Na estrutura de repetição ENQUANTO, *o teste lógico é feito no **início** da estrutura*.
 
-- Essa estrutura é utilizada quando se sabe quantas repetições ocorrerão.
+- Por esse motivo, essa estrutura é utilizada quando se sabe quantas repetições ocorrerão.
 
 <br>
 
