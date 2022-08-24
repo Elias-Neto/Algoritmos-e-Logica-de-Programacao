@@ -19,7 +19,7 @@ Entender bem os conceitos de algoritmos e lógica de programação são **fundam
 de algoritmo e desenvolvendo uma boa lógica de programação, ficará mais fácil aprender qualquer linguagem.
 
 Os conceitos lógicos são sempre os mesmos, o que varia de linguagem para linguagem é a forma de escrever 
-o código, ou seja, a sintaxe da linguagem.
+o código, ou seja, a sintaxe.
 
 <br>
 
