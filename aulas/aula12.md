@@ -32,7 +32,7 @@ FimProcedimento
 
 **Exemplo - Fazer Vitamina de Banana :**
 
-- Toda vez que eu for fazer uma vitamina de bana eu posso, simplesmente, seguir um procedimento padrão:
+- Toda vez que eu for fazer uma vitamina de banana eu posso, simplesmente, seguir um procedimento padrão:
 
   [x] Pegar  2 bananas
   
@@ -64,6 +64,7 @@ var
 inicio
   Escreva("Quer fazer uma vitamina de banana [S/N]? ")
   Leia(resposta)
+  
   EscrevaL()
   Se (resposta = "s") entao
     fazerVitaminaDeBanana()
@@ -271,7 +272,7 @@ fimalgoritmo
 
   - **Escopo Global**, quando uma variável funciona em qualquer lugar do programa.
 
-  - **Escopo Local**, quando uma variável só funciona num lugar específico do programa (normalmente dentro de algum procedimento).
+  - **Escopo Local**, quando uma variável só funciona num lugar específico do programa.
 
 **Exemplo:**
 
@@ -321,9 +322,9 @@ fimalgoritmo
   
   -  Somente as variáveis N1 e N2 têm **escopo global**, logo, funcionam em qualquer parte do programa.
 
-  -  Já as variáveis A e B são parâmetros do procedimento 'Rotina', portanto, possuem **escopo local** (ou seja, funcionam somente dentro do procedimento 'Rotina').
+  -  Já as variáveis A e B são parâmetros do procedimento Rotina(), portanto, possuem **escopo local** (ou seja, funcionam somente dentro do procedimento Rotina()).
 
-  -  Por fim, as variáveis X e Y são declaradas dentro do procedimento 'Rotina', consequentemente, também possuem **escopo local** (ou seja, funcionam somente dentro do procedimento 'Rotina').
+  -  Por fim, as variáveis X e Y são declaradas dentro do procedimento Rotina(), consequentemente, também possuem **escopo local** (ou seja, funcionam somente dentro do procedimento).
 
 <br>
 
