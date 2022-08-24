@@ -50,7 +50,9 @@ inicio
    Leia(numero1)
    Escreva("Informe outro número: ")
    Leia(numero2)
+   
    soma <- numero1 + numero2
+   
    Escreva("A soma entre ", numero1, " e ", numero2, " é ", soma)
       
 fimalgoritmo
@@ -109,9 +111,12 @@ var
 inicio
    Escreva("Informe um número: ")
    Leia(numero1)
+   
    Escreva("Indorme um número: ")
    Leia(numero2)
+   
    media <- (numero1+numero2)/2
+   
    Escreva("A média entre ", numero1, " e ", numero2, " é ", media)
 
 fimalgoritmo
