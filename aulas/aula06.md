@@ -23,7 +23,7 @@
 a idade do usuário e mostre na tela quantos anos ele tem.
 
 ````
-algoritmo "Exercício 01 - Creuza vai fazer aniverário"
+algoritmo "Creuza vai fazer aniverário"
 
 var
    anoAtual, anoNasc, idade: Inteiro
@@ -77,7 +77,7 @@ em Fahrenheit e não em Celcius. O problema é que ela não sabe fazer a convers
 conversão para Celcius e exiba o resultado na tela.
 
 ````
-algoritmo "exercicio 03"
+algoritmo "Creuza não sabe a temperatura"
 
 var
    C, F: Real
@@ -99,7 +99,7 @@ fimalgoritmo
 que chegar no Brasil.
 
 - Faça um programa que leia o valor de um porduto, calcule o imposto sobre esse produto e
-exiba na tela o resultado. (considere o imposto de 60%)
+exiba na tela o resultado. (considere o imposto de 60%).
 
 ````
 algoritmo "Creuza comprou várias coisas"
