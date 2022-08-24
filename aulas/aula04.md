@@ -149,11 +149,11 @@ F | V
 
 <br>
 
-- Paula está feliz 😄. Portanto, O inverso lógico é: Paula está triste 😥.
+- Paula está feliz 😄. Portanto, O inverso lógico é: Paula está triste (NÃO feliz) 😥.
 
-- Paula está triste 😥. Portanto, o inverso lógico é: Paula está feliz 😄.
+- Paula está triste 😥. Portanto, o inverso lógico é: Paula está feliz (NÃO triste) 😄.
 
-- Não tem segredo, a lógica do operador NÃO é: o que for verdadeiro fica falso e o que for falso fica verdadeiro. É uma inversão lógica.
+- Não tem segredo, a lógica desse operador é: o que for verdadeiro fica falso e o que for falso fica verdadeiro. É uma inversão lógica.
 
 <br>
 
