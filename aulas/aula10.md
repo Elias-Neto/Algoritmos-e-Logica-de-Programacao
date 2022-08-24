@@ -15,7 +15,7 @@
 
 - É uma estrutura que gira em torno de **uma condição**.
 
-- Diferentemente da estrutura "Enquanto", nessa *o teste lógico é feito no **fim** da estrutura* e não no início.
+- Diferentemente da estrutura "Enquanto", na "Repita" *o teste lógico é feito no **fim** da estrutura* e não no início.
 
 - Por esse motivo, a estrutura REPITA é utilizada quando não se sabe quantas vezes vai repetir o loop
 
@@ -129,7 +129,9 @@ inicio
   
   Repita
     contador <- contador + 1
+    
     resultado <- numero * contador
+    
     Escreval(numero, " x ", contador, " = ", resultado)
   Ate (contador = 10)
   
@@ -156,9 +158,11 @@ inicio
   Repita
     Escreva("Digite um número: ")
     Leia(numero)
+    
     Se (numero < 0) entao
       totalNegativos <- totalNegativos + 1
     FimSe
+    
     contador <- contador + 1
   Ate (contador > 5)
   
@@ -200,7 +204,7 @@ inicio
 fimalgoritmo
 ````
 
-- **ADICIONAL**: Permitir que o usuário peço o fatorial de um número quantas vezes ele quiser.
+- **ADICIONAL**: Permitir que o usuário execute o programa quantas vezes ele quiser.
 
 ````
 algoritmo "Fatorial de Um Número"
@@ -236,11 +240,9 @@ fimalgoritmo
 
 <br>
 
-- Desenvolva um algoritmo que leia um número, detecte e informe se esse número
-é ou não primo.
+- Desenvolva um algoritmo que leia um número, detecte e informe se esse número é ou não primo.
 
-- Ser um Número Primo, significa que da contagem de um até o número, ele só tem dois 
-divisores (um e ele mesmo).
+- Ser um Número Primo, significa que da contagem de um até o número, ele só tem dois divisores (um e ele mesmo).
 
 ````
 algoritmo "É Um Número Primo?"
@@ -250,6 +252,7 @@ var
   
 inicio
   contador <- 1
+  
   Escreva("Digite um número: ")
   Leia(numero)
   
@@ -257,6 +260,7 @@ inicio
     Se (numero % contador = 0) entao
       divisivel <- divisivel + 1
     FimSe
+    
     contador <- contador + 1
   Ate (contador > numero)
   
@@ -309,14 +313,17 @@ inicio
           Escreva(" ", contador, "..")
           contador <- contador + 1
         Ate (contador > 10)
+        
       Caso 2
         contador <- 10
         Repita
           Escreva(" ", contador, "..")
           contador <- contador - 1
         Ate (contador < 1)
+        
       Caso 3
         Escreval("SAINDO...")
+        
       OutroCaso
         Escreval("INVÁLIDO.")
     FimEscolha
