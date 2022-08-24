@@ -64,7 +64,6 @@ var
   contador:Inteiro
    
 inicio
-  contador <- 0
   
   Enquanto (contador <= 10) faca
     Escreval(contador)
@@ -72,7 +71,7 @@ inicio
   FimEnquanto
   
   EscrevaL()
-  Escreval("Terminei de contar")
+  Escreval("Terminei de contar!")
    
 fimalgoritmo
 ````
@@ -100,7 +99,7 @@ inicio
   FimEnquanto
   
   EscrevaL()
-  Escreval("Terminei de contar")
+  Escreval("Terminei de contar!")
    
 fimalgoritmo
 ````
@@ -124,14 +123,13 @@ inicio
   Leia(fim)
   
   EscrevaL()
-  inici0 <- 0
   Enquanto (inici0 <= fim) faca
     Escreval(inici0)
     inici0 <- inici0 +  1
   FimEnquanto
   
   EscrevaL()
-  Escreval("Terminei de contar")
+  Escreval("Terminei de contar!")
    
 fimalgoritmo
 ````
@@ -151,14 +149,13 @@ inicio
   Leia(salto)
   
   EscrevaL()
-  inici0 <- 0
   Enquanto (inici0 <= fim) faca
     Escreval(inici0)
     inici0 <- inici0 + salto
   FimEnquanto
   
   EscrevaL()
-  Escreval("Terminei de contar")
+  Escreval("Terminei de contar!")
    
 fimalgoritmo
 ````
@@ -178,7 +175,6 @@ var
   contador, numero, soma: Inteiro
    
 inicio
-  soma <- 0
   contador <- 1
   
   Enquanto (contador <= 5) faca
@@ -186,6 +182,7 @@ inicio
     Leia(numero)
     
     soma <- soma + numero
+    
     contador <- contador + 1
   FimEnquanto
   
@@ -204,7 +201,6 @@ var
   contador, numero, soma, menor, maior: Inteiro
   
 inicio
-  soma <- 0
   contador <- 1
   
   Enquanto (contador <= 5) faca
@@ -224,6 +220,7 @@ inicio
     FimSe
     
     soma <- soma + numero
+    
     contador <- contador + 1
   FimEnquanto
   
@@ -241,8 +238,7 @@ fimalgoritmo
 
 <br>
 
-- Faça um algoritmo que solicite ao usuário um valor em reais e converta esse valor para
-dólar, faça com que isso se repita 4 vezes.
+- Faça um algoritmo que solicite ao usuário um valor em reais e converta esse valor para dólar, faça com que isso se repita 4 vezes.
 
 ````
 algoritmo "Fazer conversão de moedas 4 vezes"
@@ -261,8 +257,8 @@ inicio
     dolar <- reais / 5.2
     
     EscrevaL("O valor convertido: U$", dolar:5:2)
-    contador <- contador + 1
     
+    contador <- contador + 1
     EscrevaL()
   FimEnquanto
    
@@ -293,6 +289,7 @@ inicio
     dolar <- reais / 5.2
 
     EscrevaL("O valor convertido: U$", dolar:5:2)
+    
     contador <- contador + 1
   FimEnquanto
    
@@ -305,8 +302,7 @@ fimalgoritmo
 
 <br>
 
-- Crie um programa que leia o início e o fim da contagem, detecte se ela é progressiva ou
-regressiva e realize a contagem.
+- Crie um programa que leia o início e o fim da contagem, detecte se ela é progressiva ou regressiva e realize a contagem.
 
 ````
 algoritmo "EXERCÍCIO 01 - CONTAGEM INTELIGENTE "
@@ -347,9 +343,7 @@ fimalgoritmo
 
 <br>
 
-- Desenvolva um programa que leia a quantidade de alunos em uma turma, o nome e a nota 
-de cada aluno, detecte e informe qual foi o aluno(a) com o melhor aproveitamente e a sua 
-nota.
+- Desenvolva um programa que leia a quantidade de alunos em uma turma, o nome e a nota de cada aluno, detecte e informe qual foi o aluno(a) com o melhor aproveitamente e a sua respectiva nota.
 
 ````
 algoritmo "Melhor Aluno da Turma"
