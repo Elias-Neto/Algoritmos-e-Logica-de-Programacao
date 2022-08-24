@@ -17,7 +17,7 @@
 
 - Diferentemente da estrutura "Enquanto", na "Repita" *o teste lógico é feito no **fim** da estrutura* e não no início.
 
-- Por esse motivo, a estrutura REPITA é utilizada quando não se sabe quantas vezes vai repetir o loop
+- Por esse motivo, a estrutura REPITA é utilizada quando não se sabe quantas vezes vai repetir o loop.
 
 <br>
 
