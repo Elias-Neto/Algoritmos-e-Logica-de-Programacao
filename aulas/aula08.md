@@ -15,7 +15,7 @@
 
 - É uma estrutura que gira em torno de **mais de uma condição**.
 
-- Possui **três caminhos ou mais**
+- Possui **três caminhos ou mais**.
 
 <br>
 
@@ -38,9 +38,7 @@ FimSe
 
 Exemplo:
 
-* Se ***eu tiver dinheiro*** então ***vou viajar para Disney*** senão se 
-***eu tiver uma graninha*** então ***vou visitar minha cidade natal*** senao
-***vou ficar em casa***
+* Se ***eu tiver dinheiro*** então ***vou viajar para Disney*** senão se ***eu tiver uma graninha*** então ***vou visitar minha cidade natal*** senao ***vou ficar em casa***
 
 ````
 algoritmo "Estrutura Condicional Aninhada"
@@ -75,8 +73,7 @@ fimalgoritmo
 
 <br>
 
-- Construa um algoritmo que leia duas notas de um aluno(a), calcule a média, exiba a média,
-detecte e informe se o aluno(a) foi aprovado(a), reprovado(a) ou está em recuperação.
+- Construa um algoritmo que leia duas notas de um aluno(a), calcule a média, exiba a média, detecte e informe se o aluno(a) foi aprovado(a), reprovado(a) ou está em recuperação.
 
 ````
 algoritmo "Situação de um Aluno(a)"
@@ -186,9 +183,9 @@ fimalgoritmo
 
 - Não serve para testar **faixas de valores** (>, <, >=, <=).
 
-- É **mais simpes** do que a estrutura condicional aninhada
+- É **mais simpes** do que a estrutura condicional aninhada.
 
-- Use em casos de **muitos testes** com **valores numéricos simples**
+- Use em casos de **muitos testes** com **valores numéricos simples**.
 
 <br>
 
@@ -222,8 +219,8 @@ Escolha (variável)
 algoritmo "Criança Esperança"
 
 var
-   opcao : Inteiro
-   valor: Real
+  opcao : Inteiro
+  valor: Real
    
 inicio
   EscrevaL ("---------------------------")
@@ -265,8 +262,7 @@ fimalgoritmo
 
 <br>
 
-- Crie uma aplicação que leia o nome do(a) funcionário(a), o salário dele(a), a quatidade
-de dependentes dessa pessoa e calcule o novo salário dela de acordo com essa quantidade. 
+- Crie uma aplicação que leia o nome do(a) funcionário(a), o salário dele(a), a quatidade de dependentes dessa pessoa e calcule o novo salário dela de acordo com essa quantidade. 
 
   - Aumento de 5% caso não tenha dependentes.
 
@@ -314,8 +310,7 @@ fimalgoritmo
 
 <br>
 
-- Cronstrua um algoritmo que leia duas notas de uma aluno(a), calcule a média, 
-detecte e informe qual foi o aproveitamento.
+- Cronstrua um algoritmo que leia duas notas de uma aluno(a), calcule a média, detecte e informe qual foi o aproveitamento.
 
 <br>
 
@@ -381,8 +376,7 @@ fimalgoritmo
 
 <br>
 
-- Crie uma aplicação que leia quantos gols um time A e um time B fizeram em uma partida,
-calcule e exiba a diferença de gols, detecte e informe o status da partida.
+- Crie uma aplicação que leia quantos gols um time A e um time B fizeram em uma partida, calcule e exiba a diferença de gols, detecte e informe o status da partida.
 
 <br>
 
