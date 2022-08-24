@@ -1,4 +1,4 @@
-# 🔢 Aula 03 - Comandos de Entrada e Operadores Aritméticos 1 
+# 🔢 Aula 03 - Comandos de Entrada e Operadores Aritméticos
 
 <br>
 
@@ -18,7 +18,7 @@
 - São responsáveis pela **entrada de dados**.
 
 ````
-algoritmo "apresentação"
+algoritmo "Comandos de Entrada de Dados (Inputs)"
 
 var
    nome: caractere
@@ -133,7 +133,7 @@ Int | Valor Inteiro | Int(3.9) 3
 RaizQ | Raiz Quadrada | Int(25) 5
 Pi | Retorna Pi | Pi 3.14...
 Sen | Sen(rad) | Sen(0.523) 0.5
-Cos | Coseno(rad) | Cos(0.523) 0.86
+Cos | Cosseno(rad) | Cos(0.523) 0.86
 Tan | Tangente(rad) | Tan(0.523) 0.57
 GrauRad | Graus para rad | GraupRad(30) 0.52
 
