@@ -13,78 +13,66 @@
 
 ## **O que são Matrizes?**
 
-- Matrizes, antes de qualquer coisa, são **variáveis** (ou seja, servem para armazenar dados na memória do computador). Porém,  assim como os vetores, não são variáveis simples mas sim **variáveis compostas** (ou seja, são formadas por mais de um espaço na memória do computador).
+- Matrizes, antes de qualquer coisa, são **variáveis** (ou seja, servem para armazenar dados na memória do computador). Porém,  assim como os vetores, não são variáveis simples mas sim **variáveis compostas** (ou seja, são compostas por mais de um espaço na memória do computador).
 
-- O funcionamento das matrizes possui pontos semelhantes ao dos vetores, contudo, o diferencial das matrizes é: a capacidade delas de possuirem **mais de uma dimensão**. 
+- O funcionamento das matrizes possui pontos semelhantes ao dos vetores, contudo, o diferencial das matrizes é a capacidade delas de possuirem **mais de uma dimensão**. 
 
-- Vamos com calma. Para entender esse conceito de mais de uma dimensão das matrizes, vamos reelembrar alguns pontos vistos sobre os vetores:
+- Vamos com calma... Para entender esse conceito de mais de uma dimensão das matrizes, vamos reelembrar alguns pontos vistos sobre os vetores:
 
 <br>
 
 <div align="center">
-  <img align="center" width="500px" src="./images/vetores(1).gif">  
+  <img align="center" width="500px" src="./images/matrizes.gif">  
 </div>
 
 <br>
 
 - É importante prestarmos atenção nos seguintes pontos:
 
-   1. A forma de declaração do vetor. {nomeDaVariavel + vetor[quantidadeDeEspaçosDisponíveis] + tipoDaVariavel}
+   1 - A forma de **declaração** do vetor. {nomeDaVariavel + vetor[quantidadeDeEspaçosDisponíveis] + tipoDaVariavel}
 
-   2. A forma na qual o vetor é disposto na memória do computador. {forma ordenada e sequencial em linha}
+   2 - A forma na qual o vetor é **disposto** na memória do computador. {forma ordenada e sequencial em linha}
 
-   3. A forma de atribuir valores no vetor. {nomeDaVariavel[inidice]}
-
-
-- Show! Tendo isso em mente, vamos observar como é feita: a declaração, a diposição na memória do computador e a atribuição de valores numa MATRIZ.
+   3 - A forma de **atribuir** valores no vetor. {nomeDaVariavel[inidice]}
 
 
+- Show! Tendo isso em mente, vamos observar como esses e outros fatoes funcionam nas MATRIZES.
 
+<div align="center">
+  <img align="center" width="500px" src="./images/matrizes(1).gif">  
+</div>
 
+- Olha que interessante:
 
-- Variáveis: pois as matrizes são espaços ("gavetas") na memória do computador ("armário") que servem para armazenar dados.
+  - Na **declaração**, apesar de ser quase 100% igual a de um vetor, numa matriz existem **dois** elementos para indicar a **quantidade de espaços disponíveis**.
 
-- Compostas: pois as matrizes são variáveis compostas por mais de um espaço na memória do computador.
+    - Esse é justamente o diferencial das matrizes citado anteriormente...
+    
+    - O primeiro elemento indica a quantidade de espaços disponíveis em uma das dimensão da matriz (as **LINHAS**).
+    
+    - E o segundo elemento indica a quantidade de espaços disponíveis na outra dimensão da matriz (as **COLUNAS**).
 
-- Homegêneas: pois os espaços que compõe uma matriz são do mesmo tipo.
+  - A **disposição** de uma matriz na memória do computador, consequentemente, ocupará **mais espaços**, porém, continua sendo **organizada** e **sequencial** (em LINHAS e COLUNAS).
 
-- Multidimensionais: pois para identificar cada um dos espaços de uma matriz é necessário mais de um "endereço" (mais de um índece).
+  - Outra consequência da multidimensionalidade de uma matriz ocorre na hora da **atribuição** de valores dentro dela. 
 
-<br>
+    - É necessário informar não 1 único índece (como acontece com os vetores) mas sim **2 ÍNDECES**,
 
-## **Declarando Uma Matriz**
+      - O primeiro índice indica a posição na qual o valor irá ser atribuído em relação as linhas (1° dimensão).
 
-<br>
-
-- Exemplo: declarando uma matriz m de três linhas e duas colunas (3x2)
-
-```
-var
-   m: vetor[1..3, 1..2] de inteiro   // vetor[n° de linhas, n° de colunas]
-```
-
-<br>
-
-## **Atribuindo Valores Numa Matriz**
+      - O segundo índice indica a posição na qual o valor irá ser atribuído em relação as colunas (2° dimensão).
 
 <br>
 
-- Ao contrário dos vetores, para atribuir valores em uma matriz é necessário utilizar
-  mais de um índice (na maioria dos casos, apenas dois, o 1° representa linha e o
-  2° a coluna na qual o valor será inserido).
+## Matrizes - Variáveis Compostas Homogêneas Multimensionais
 
-```
-var
-  m: vetor[1..3, 1..2] de inteiro
+- As matrizes também possuem um nome técnico (bem semelhante ao dos vetores). Elas são chamadas de: Variáveis Compostas Homogêneas Multidimensionais
 
-inicio
-  m[1, 1] <- 2    // atribuindo/armazenando o valor 2, na matriz m, na posição 1,1  (linha 1, coluna 1)
-  m[1, 2] <- 4    // atribuindo/armazenando o valor 4, na matriz m, na posição 1,2  (linha 1, coluna 2)
-  m[2, 1] <- 3    // atribuindo/armazenando o valor 8, na matriz m, na posição 2,1  (linha 2, coluna 1)
-  m[2, 2] <- 6    // atribuindo/armazenando o valor 6, na matriz m, na posição 2,2  (linha 2, coluna 2)
-  m[3, 1] <- 1    // atribuindo/armazenando o valor 1, na matriz m, na posição 3,1  (linha 3, coluna 1)
-  m[3, 2] <- 2    // atribuindo/armazenando o valor 1, na matriz m, na posição 3,2  (linha 3, coluna 2)
-```
+- Os conceitos são os mesmos, ambas (os vetores e as matrizes) são variáveis compostas homogêneas. A única diferença são quatro letrinhas: os vetores se caracterizam por serem **UNI**dimensionais (possuem apenas **uma dimensão**, logo, sua atribuição de valor funciona com somente **um índice**), já as matrizes por serem **MULTI**dimensionais (possuem **mais de uma dimensão**, logo, sua atribuição de valor funciona com **mais de um índice**).
+
+<br>
+
+> OBS❗ Os conceitos matemáticos de matrizes, também valem para as matrizes as quais vamos trabalhar.
 
 <br>
 
@@ -92,8 +80,7 @@ inicio
 
 <br>
 
-- Desenvolva um algoritmo que leia seis números, coloque-os dentro de uma matriz 3x2
-  (3 linhas e 2 colunas) e exiba essa matriz.
+- Desenvolva um algoritmo que leia seis números, coloque-os dentro de uma matriz 3x2 (3 linhas e 2 colunas) e exiba essa matriz.
 
 <br>
 
@@ -107,6 +94,7 @@ var
 inicio
   EscrevaL("Construindo Uma Matriz")
   EscrevaL("======================")
+  
   Para linha <- 1 ate 3 faca
     Para coluna <- 1 ate 2 faca
       Escreva("Digite o valor da posição [", linha, ",", coluna, "] : ")
@@ -127,47 +115,48 @@ fimalgoritmo
 
 <br>
 
-### 🏋️‍♂️ **Exercício Prático - Construir uma Matriz e Mostrando os Pares :**
+### 🏋️‍♂️ **Exercício Prático - Construir uma Matriz e Mostrar os Números Pares :**
 
 <br>
 
-- Desenvolva um algoritmo que leia nove números, coloque-os dentro de uma matriz 3x3
-  (3 linhas e 3 colunas), exiba essa matriz e destaque os números que forem pares.
+- Desenvolva um algoritmo que leia nove números, coloque-os dentro de uma matriz 3x3 (3 linhas e 3 colunas), exiba essa matriz e destaque os números que forem pares.
 
 <br>
 
 ```
-algoritmo "Construir uma Matriz e Mostrando os Pares"
+algoritmo "Construir uma Matriz e Mostrar os Números Pares"
 
 var
   m: vetor[1..3, 1..3] de Inteiro
   linha, coluna, totalPares: Inteiro
+  
 inicio
-   Para linha <- 1 ate 3 faca
-      Para coluna <- 1 ate 3 faca
-         Escreva ("Digite o valor da posicao [", linha, ",", coluna, "]: ")
-         Leia(m[linha, coluna])
-      FimPara
-   FimPara
+  Para linha <- 1 ate 3 faca
+    Para coluna <- 1 ate 3 faca
+      Escreva ("Digite o valor da posicao [", linha, ",", coluna, "]: ")
+      Leia(m[linha, coluna])
+    FimPara
+  FimPara
 
-   EscrevaL()
-   EscrevaL("MATRIZ")
-   EscrevaL("------")
-   totalPares <- 0
-   Para linha <- 1 ate 3 faca
-      Para coluna <- 1 ate 3 faca
-         Se(m[linha, coluna] % 2 = 0) entao
-             Escreva("{", m[linha, coluna]:2, "}")
-             totalPares <- totalPares + 1
-         senao
-             Escreva(m[linha, coluna]:4)
-         fimSe
-      FimPara
-      Escreval()
-   FimPara
+  EscrevaL()
+  EscrevaL("MATRIZ")
+  EscrevaL("------")
+  
+  Para linha <- 1 ate 3 faca
+    Para coluna <- 1 ate 3 faca
+       Se(m[linha, coluna] % 2 = 0) entao
+         Escreva("{", m[linha, coluna]:2, "}")
+         totalPares <- totalPares + 1
+       senao
+         Escreva(m[linha, coluna]:4)
+       fimSe
+    FimPara
+    Escreval()
+  FimPara
 
-   EscrevaL()
-   EscrevaL("Ao todo foram digitados ", totalPares, " números PARES")
+  EscrevaL()
+  EscrevaL("Ao todo foram digitados ", totalPares, " números PARES")
+  
 fimalgoritmo
 ```
 
@@ -177,10 +166,9 @@ fimalgoritmo
 
 <br>
 
-- Matriz identidade é uma matri cuja diagonal principal (formada por posições nas quais o 
-número da linha é igual ao da coluna) só tem valor 1 e as demais posições têm valor 0.
-
 - Desenvolva um algoritmo que crie uma matriz identidade de 3° ordem (3x3).
+
+- Matriz identidade é uma matriz cuja diagonal principal (formada por posições nas quais o número da linha é igual ao da coluna) só tem valor 1 e as demais posições têm valor 0.
 
 ````
 algoritmo "Criar uma Matriz Identidade de 3° Ordem"
@@ -218,11 +206,11 @@ fimalgoritmo
 
 - Crie um algoritmo que leia dezesseis números, coloque-os dentro de uma matriz de 4° ordem (4x4) e,
 
-  - Exiba essa matriz
+  - Exiba essa matriz;
 
-  - Calcule e mostre a soma dos valores da diagonal principal.
+  - Calcule e mostre a soma dos valores da diagonal principal;
 
-  - Calcule e mostre o produto entre os valores da segunda linha.
+  - Calcule e mostre o produto entre os valores da segunda linha;
 
   - Identifique e mostre o maior valor da terceira coluna.
 
@@ -234,7 +222,6 @@ var
   i, j, somaDiagonalPrincipal, produtoSegundaLinha, maiorTerceiraColuna: Inteiro
 
 inicio
-  somaDiagonalPrincipal <- 0
   produtoSegundaLinha <- 1
   Para i <- 1 ate 4 faca
     Para j <- 1 ate 4 faca
@@ -261,13 +248,14 @@ inicio
 
   Para i <- 1 ate 4 faca
     Se (m[i, 3] > maiorTerceiraColuna) entao
-        maiorTerceiraColuna <- m[i, 3]
+      maiorTerceiraColuna <- m[i, 3]
     FimSe
   FimPara
 
   EscrevaL("A soma dos valores da Diagonal Principal e ", somaDiagonalPrincipal)
   EscrevaL("O produto dos valores da Segunda Linha e ", produtoSegundaLinha)
   EscrevaL("O maior valor da Terceira Coluna e ", maiorTerceiraColuna)
+  
 fimalgoritmo
 ````
 
@@ -279,13 +267,13 @@ fimalgoritmo
 
 - Desenvolva um algoritmo para preencher uma matriz de quarta ordem e mostrar:
 
-  - A matriz completa
+  - A matriz completa;
 
-  - Os elementos da diagonal principal
+  - Os elementos da diagonal principal;
 
-  - Os elementos do triangulo superior (o que sobra da diagonal principal na parte de cima)
+  - Os elementos do triangulo superior (o que sobra da diagonal principal na parte de cima);
 
-  - Os elementos do triangulo inferior (o que sobra da diagonal principal na parte de baixo)
+  - Os elementos do triangulo inferior (o que sobra da diagonal principal na parte de baixo).
 
 ````
 algoritmo "Dissecando Matrizes"
@@ -510,5 +498,6 @@ inicio
   Ate (terminouVelha() = verdadeiro)
 
   EscrevaL("JOGO FINALIZADO!!!")
+  
 fimalgoritmo
 ````
