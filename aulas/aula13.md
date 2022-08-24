@@ -197,7 +197,7 @@ Inicio
   N1 <- N2
   N2 <- N3
 
-  Retorne(V3)
+  Retorne(N3)
 FimFuncao
 
 inicio
@@ -243,23 +243,23 @@ Carac("67") | C | Retorna a letra específica de um código
 
 - Desenvolva um algoritmo, utilizando as funções do visualg, que leia o nome do usuário e:
   
-  - Informe o total de letras do nome
+  - Informe o total de letras do nome;
   
-  - Exiba o nome em letras maiúsculas
+  - Exiba o nome em letras maiúsculas;
   
-  - Exiba o nome em letras minúsculas
+  - Exiba o nome em letras minúsculas;
   
-  - Informe a primeira letra do nome
+  - Informe a primeira letra do nome;
   
-  - Informe a última letra do nome
+  - Informe a última letra do nome;
   
-  - Informe a posição da letra "A" no nome
+  - Informe a posição da letra "A" no nome;
   
-  - Informe a código correspondente a letra "A"
+  - Informe a código correspondente a letra "A";
   
-  - Informe a a letra correspondnete ao código 65
+  - Informe a a letra correspondnete ao código 65;
 
-  - Monte e exiba na tela o nome do usuário ao contrário
+  - Monte e exiba na tela o nome do usuário ao contrário.
 
 ````
 algoritmo "Analisador de Nomes"
