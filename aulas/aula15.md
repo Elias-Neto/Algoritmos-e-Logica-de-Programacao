@@ -66,9 +66,9 @@
 
 ## Matrizes - Variáveis Compostas Homogêneas Multimensionais
 
-- As matrizes também possuem um nome técnico (bem semelhante ao dos vetores). Elas são chamadas de: Variáveis Compostas Homogêneas Multidimensionais
+- As matrizes também possuem um nome técnico (bem semelhante ao dos vetores). Elas são chamadas de: Variáveis Compostas Homogêneas Multidimensionais.
 
-- Os conceitos são os mesmos, ambas (os vetores e as matrizes) são variáveis compostas homogêneas. A única diferença são quatro letrinhas: os vetores se caracterizam por serem **UNI**dimensionais (possuem apenas **uma dimensão**, logo, sua atribuição de valor funciona com somente **um índice**), já as matrizes por serem **MULTI**dimensionais (possuem **mais de uma dimensão**, logo, sua atribuição de valor funciona com **mais de um índice**).
+- Os conceitos são os mesmos, ambas (os vetores e as matrizes) são variáveis compostas homogêneas. A única diferença são algumas letrinhas: os vetores se caracterizam por serem **UNI**dimensionais (possuem apenas **uma dimensão**, logo, sua atribuição de valor funciona com somente **um índice**), já as matrizes por serem **MULTI**dimensionais (possuem **mais de uma dimensão**, logo, sua atribuição de valor funciona com **mais de um índice**).
 
 <br>
 
