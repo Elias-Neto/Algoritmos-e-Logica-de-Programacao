@@ -103,7 +103,7 @@
 
   - **Compostas**: Pois os vetores são variáveis compostas por mais de um espaço na memória do computador.
 
-  - **Homegêneas**: Pois os espaços que compõe um vetor armazenarão dados do mesmo tipo (lembra que vimos que, ao declarar um vetor, foi preciso informar o tipo dele e que ele foi composto por apenas um tipo de dado?).
+  - **Homegêneas**: Pois os espaços que compõe um vetor armazenarão dados do mesmo tipo (lembra que vimos que, ao declarar um vetor, foi preciso informar o tipo dele e que ele foi composto, justamente, apenas com dados desse tipo?).
 
   - **Unidemensionais**: Pois para identificar cada um dos espaços de um vetor é necessário somente um índice (somente um "endereço" para identificar uma posição dentro do vetor).
 
@@ -185,7 +185,7 @@ fimalgoritmo
 
 - Desenvolva um algoritmo que leia o nome e duas notas de 5 alunos, calcule a média de cada um, a média da turma toda e analise se o aluno foi aprovado (nota maior ou igual a 7), reprovado (nota abaixo abaixo de 5) ou está em recuperação (nota maior ou igual a 5 e menor que 7).
 
-- Exiba na tela a média de toda a turma e uma lista com o nome dos alunos, suas respectivas médias, e sua situação (aprovado, reprovado ou em recuperação)
+- Exiba na tela a média de toda a turma e uma lista com o nome dos alunos, suas respectivas médias e situação (aprovado, reprovado ou em recuperação)
 
 <br>
 
@@ -249,7 +249,7 @@ fimalgoritmo
 
 <br>
 
-- Desenvolva um Algoritmo que leia 7 nomes, coloque todos aqueles que começam com "C" dentro de um vetor e depois exiba esses nomes na tela.
+- Desenvolva um Algoritmo que leia 7 nomes, coloque todos aqueles que começam com "C" dentro de um vetor e depois exiba-o na tela.
 
 <br>
 
@@ -541,5 +541,6 @@ inicio
       Escreva("Quer reservar outro? [S/N] ")
       Leia(resposta)
    Ate (resposta = "N")
+   
 fimalgoritmo
 ````
