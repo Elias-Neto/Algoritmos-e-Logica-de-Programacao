@@ -13,9 +13,9 @@
 
 ## **Estrutura de Repetição - "Para"**
 
-- É uma estrutura que gira em torno de **uma condição**
+- É uma estrutura que gira em torno de **uma condição**.
 
-- Nessa estrutura, *o teste lógico é feito no __início__*
+- Nessa estrutura, *o teste lógico é feito no __início__*.
 
 - Portanto, é utilizada quando se sabe quantas vezes vai se repetir o loop.
 
@@ -217,7 +217,7 @@ fimalgoritmo
 
   - Calcule e informe a média entre todos os numeros;
 
-  - Calcule e informe a soma de todos os numeros pares
+  - Calcule e informe a soma de todos os numeros pares;
   
   - Detecte e informe quantos numeros são divisíveis por cinco;
 
@@ -253,11 +253,11 @@ inicio
   FimPara
   
   EscrevaL()
-  Escreval("A soma entre os numeros é ", soma)
-  Escreval("A média entre os numeros é ", media:5:2)
-  Escreval("numeros divisíveis por cinco: ", divisiveisPor5)
-  Escreval("numeros nulos: ", numerosNulo)
-  Escreval("A soma dos numeros pares é ", somaPar)
+  Escreval("A soma entre os números digitados é ", soma)
+  Escreval("A média entre os números digitados é ", media:5:2)
+  Escreval("A quantidade de numeros divisíveis por cinco que digitados é ", divisiveisPor5)
+  Escreval("A quantidade de números nulos digitados é ", numerosNulo)
+  Escreval("A soma dos números pares digitados é ", somaPar)
 
 fimalgoritmo
 ````
