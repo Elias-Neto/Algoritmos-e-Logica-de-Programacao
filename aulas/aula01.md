@@ -9,21 +9,19 @@
 
 ## **O que são algoritmos ❔**
 
-Algoritmos são conjuntos de passos **finitos e organizados** que, quando
-executados, resolvem um determinado **problema**.
+Algoritmos são conjuntos de passos **finitos e organizados** que, quando executados, resolvem um determinado **problema**.
 
 <br>
 
-Exemplos de Algoritmos: rotinas cotidianas (fazer um bolo,
-fazer um saque no caixa eletrônico, atravessar a rua, escovar os dentes, etc..). 
+Exemplos de Algoritmos: rotinas cotidianas (fazer um bolo, fazer um saque no caixa eletrônico, atravessar a rua, escovar os dentes, etc..). 
 
 <br>
 
-Algoritmos estão presentes em praticamente tudo: sites, aplicativos, jogos, nosso cotidiano...
+Algoritmos estão presentes em praticamente tudo: sites, aplicativos, jogos, nosso dia a dia...
 
 <br>
 
-Exemplo de um algoritmo presente em nossa rotina cotidiana quando vamos ***atravessar a rua***:
+Exemplo de um algoritmo presente em nossa rotina diária, ***atravessar a rua***:
 
 
 ````
@@ -64,7 +62,7 @@ para construir uma aplicação completa.
 
 <br>
 
-Existem várias formas de você expressar sua lógica, por meio de: Fluxograma, Pseudocódigo e Linguagem de Programação.
+Existem várias formas de você expressar sua lógica, três bem famosas são: Fluxograma, Pseudocódigo e Linguagem de Programação.
 1. **Fluxograma** é um tipo de diagrama; 
 2. **Pseudocódigo** é uma forma simples de escrever código utilizando uma linguagem próxima da que você fala;
 3. **Linguagem de programação** é um tipo de linguagem que tenta unir o entendimento do ser humano com o 
