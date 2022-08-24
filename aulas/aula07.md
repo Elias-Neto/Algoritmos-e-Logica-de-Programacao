@@ -46,6 +46,7 @@ var
 inicio
   Escreva("Quanto dinheiro eu tenho? R$")
   Leia(dinheiro)
+  
   Se (dinheiro >= 10000) entao
     EscrevaL("Partiu Disney!")
   FimSe
@@ -75,8 +76,11 @@ inicio
    Leia(anoAtual)
    Escreva("Em que ano você nasceu? ")
    Leia(anoNasc)
+   
    idade <- anoAtual - anoNasc
+   
    Escreva("Atualmente, você tem ", idade, " anos")
+   
    Se (idade >= 21) entao
       Escreval(" e já atingiu a maioridade")
    FimSe
@@ -120,6 +124,7 @@ var
 inicio
   Escreva("Quanto dinheiro eu tenho? R$")
   Leia(dinheiro)
+  
   Se (dinheiro >= 10000) entao
     EscrevaL("Vou viajar para Disney! #PartiuDisney")
   senao
@@ -135,8 +140,7 @@ fimalgoritmo
 
 <br>
 
-- Construa um algoritmo que leia um número qualquer, detecte se ele é par ou ímpar e exiba
-o resultado na tela.
+- Construa um algoritmo que leia um número qualquer, detecte se ele é par ou ímpar e exiba o resultado na tela.
 
 ````
 algoritmo "Par Ou Ímpar"
@@ -147,6 +151,7 @@ var
 inicio
   Escreva("Digite um número qualquer: ")
   Leia(N)
+  
   Se (N % 2 = 0) entao
     Escreval("O número ", N," é PAR")
   senao
@@ -162,8 +167,7 @@ fimalgoritmo
 
 <br>
 
-- Crie um algoritmo que leia a massa e altua do usuário, calcule o IMC dele, e informe
-se o usuário está na faixa de peso ideal ou não.
+- Crie um algoritmo que leia a massa e a altura do usuário, calcule o IMC dele, e informe se o usuário está na faixa de peso ideal ou não.
 
 - Cálculo de IMC: massa/(altura^2)
 
@@ -184,10 +188,11 @@ inicio
   IMC <- massa/(altura^2)
   
   Escreval("IMC: ", IMC:5:2)   // IMC:5:2 é uma formatação do valor da variável IMC. Significa que eu quero um número com 5 casas decimais, sendo 2 delas depois da vírugula
+  
   Se (IMC >= 18.5) e (IMC < 25) entao
-     Escreva("Parabéns! Você está no seu peso ideal.")
+    Escreva("Parabéns! Você está no seu peso ideal.")
   senao
-       Escreva("Você não está na faixa de peso ideal")
+    Escreva("Você não está na faixa de peso ideal")
   FimSe
   
 fimalgoritmo
@@ -199,10 +204,7 @@ fimalgoritmo
 
 <br>
 
-- Faça um programa para o Departamento de Trânsito que solicite e leia o ano atual e 
-o ano de nascimento do usuário, calcule a idade dele e, se ele tiver 18 anos ou mais
-idade, informe que ele está apto para tirar a carteira, se não, exiba que ele inapto
-para tirar a carteira.
+- Faça um programa para o Departamento de Trânsito que solicite e leia o ano atual e o ano de nascimento do usuário, calcule a idade dele e, se ele tiver 18 anos ou mais de idade, informe que ele está apto para tirar a carteira, se não, exiba que ele está inapto para tirar a carteira.
 
 ````
 algoritmo "Esta Apto a Dirigir?"
@@ -221,7 +223,9 @@ inicio
   
   Escreval("--------- STATUS ---------")
   idade <- anoAtual - anoNasc
+  
   Escreval("IDADE: ", idade)
+  
   Se (idade >= 18) entao
      Escreval("APTO PARA TIRAR A CARTEIRA")
   senao
@@ -238,8 +242,7 @@ fimalgoritmo
 
 <br>
 
-- Desenvolva uma aplicação para a Escola Javali Cansado que solicite e leia 2 notas,
-calcule a média, e, se a média for maior ou igual a 7, informe que o aluno(a) foi
+- Desenvolva uma aplicação para a Escola Javali Cansado que solicite e leia 2 notas, calcule a média, e, se a média for maior ou igual a 7, informe que o aluno(a) foi
 aprovado, se não, informe que foi reprovado.
 
 ````
@@ -259,7 +262,9 @@ inicio
 
   Escreval("-----------------------")
   media <- (nota1+nota2)/2
+  
   Escreval("MÉDIA: ", media:2:1)
+  
   Se (media >= 7) entao
     Escreval("ALUNO(A) APROVADO")
   senao
