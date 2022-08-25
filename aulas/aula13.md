@@ -35,7 +35,7 @@
 
 <br>
 
-**Procedimento x Função - Quais são as diferenças?**
+## **Procedimento x Função - Quais são as diferenças?**
 
 - Como foi dito no início: "funções são procedimentos que, ao final da estrutura, **retornam um valor**.".
 
