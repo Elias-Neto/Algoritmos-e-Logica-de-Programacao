@@ -145,3 +145,7 @@ GrauRad | Graus para rad | GraupRad(30) 0.52
 <br><br>
 
 <p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
+
+<br>
+
+<a href="../README.md">Voltar</a>

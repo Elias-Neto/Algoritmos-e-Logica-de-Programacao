@@ -12,7 +12,7 @@
 
 <h2>💻 Projeto</h2>
 
-O objetivo desse repositório é organizar minha jornada de aprendizado durante o curso 
+O objetivo desse repositório é documentar e organizar minha jornada de aprendizado durante o curso 
 de algoritmos e lógica de programação do professor **Gustavo Guanabara** (curso em vídeo) 💙.
 
 Entender bem os conceitos de algoritmos e lógica de programação são **fundamentais** para a jornada de um dev. Dominando bem essa **base**
